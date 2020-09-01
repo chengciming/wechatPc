@@ -19,6 +19,7 @@
 2. 程序语言：exe和DLL库是C++编写，服务端是PHP的workman框架编写，web端是HTML5编写。
 3. 限制：此程序仅限PC端微信2.8.0.121版本，需要其他版本则需要更新Hook偏移量。
 4. 升级：微信2.8.0.121升级到其他版本，可以借助《微信基址-2.8.0.121.txt》里面的特征码进行OD捕获偏移量。
+5. 实现的功能：![点击这里查看](https://github.com/chengciming/wechatPc/blob/master/WechatDll/WechatDll/WechatOffset.h)
 
 ## 程序语言版本
 1. C++是基于VS2017开发，SDK版本：10.0.17763.0，工具集：v141，MFC：标准Window库
