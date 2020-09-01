@@ -72,5 +72,5 @@ Server:Wechat        websocket://0.0.0.0:8686            4         [ok]
 1. nginx或者其他web服务器指定站点到Web目录即可访问，或尝试直接浏览器打开访问index.html
 ```
 ## 大佬，打个赏吧
-![微信打赏二维码](https://github.com/chengciming/wechatPc/blob/master/images/微信打赏二维码)
-![支付宝打赏二维码](https://github.com/chengciming/wechatPc/blob/master/images/支付宝打赏二维码)
+![微信打赏二维码](https://github.com/chengciming/wechatPc/blob/master/images/微信打赏二维码.jpg)
+![支付宝打赏二维码](https://github.com/chengciming/wechatPc/blob/master/images/支付宝打赏二维码.jpg)
