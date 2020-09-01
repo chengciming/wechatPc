@@ -1,0 +1,43 @@
+
+<!-- 右边详情框 -->
+<div class="buju_right fl">
+    <div class="bri_top">
+        <div class="bri_top_font fl">
+            账号设置
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="bir_block">
+        <div class="bir_block_face">
+            <img src="common/img/face001.jpg"/>
+        </div>
+        <div class="bir_block_font">小圣贤庄张三</div>
+        <div class="bir_block_font">zhangliang_117</div>
+        <a href=""><div class="bir_block_exit">退出登录</div></a>
+    </div>
+    <script>
+        $(function (){
+            var image_width=$(".bir_block_face").width();
+            var image_height=$(".bir_block_face").height();
+            var image_bi=image_width/image_height;
+            $(".bir_block_face img").each(function (){
+                var images_width=$(this).width();
+                var images_height=$(this).height();
+                var images_bi=images_width/images_height;
+                if(image_bi<images_bi){
+                    $(this).css("height",image_height);
+                    var imgwidth=image_height * images_bi;
+                    var widths= 0 - (imgwidth - image_width) / 2;
+                    $(this).css("margin-left",widths);
+                }else{
+                    $(this).css("width","100%");
+                    var imgheight=image_width / images_bi;
+                    var heights=0 - (imgheight - image_height) / 2;
+                    $(this).css("margin-top",heights);
+                }
+            })
+        })
+    </script>
+</div>
+<!-- 右边详情框 -->
+

@@ -1,0 +1,40 @@
+<script>
+    $(function (){
+		$(".bcen_menu_block").hover(function(){
+			$(this).addClass('bcen_menu_block_hover');
+		}, function(){
+			$(this).removeClass('bcen_menu_block_hover');
+		});
+		$(".bcen_menu_block").click(function (){
+            $('.bcen_menu_block').removeClass('bcen_background');
+			$(this).addClass('bcen_background');
+			loadHtml($(this).attr('data-url'), '#buju_center_content');
+        });
+		$(".bcen_menu_block:first").click();
+    })
+</script>
+
+<!-- 中间功能列表-->
+<div class="buju_center fl">
+    <div class="clear"></div>
+    <div class="bcen_menu">
+    	<div class="bcen_menu_block bcen_background" data-url="tpl/aboutus.html">
+            <img src="common/img/install003.png"/>
+            <label>关于灰信</label>
+        </div>
+        <div class="bcen_menu_block" data-url="tpl/install.html">
+            <img src="common/img/install001.png"/>
+            <label>账号设置</label>
+        </div>
+        <div class="bcen_menu_block" data-url="tpl/commoninstall.html">
+            <img src="common/img/install002.png"/>
+            <label>通用设置</label>
+        </div>
+    </div>
+</div>
+<!-- 中间功能列表-->
+<!-- 右边详情框 -->
+<div id="buju_center_content">
+	
+</div>
+<!-- 右边详情框 -->

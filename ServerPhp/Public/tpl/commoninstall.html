@@ -1,0 +1,46 @@
+<script>
+    $(function (){
+        $(".bir_block_but").click(function (){
+            var imgs = $(this).find("img").attr("src");
+            imgs = imgs.replace("common/img/","");
+            imgs = imgs.replace(".png","");
+            if(imgs == "butclose"){
+                $(this).find("img").attr("src","common/img/butopen.png");
+                if($(this).hasClass("bir_block_time")){
+                    $(".intime").css("display","block");
+                }
+            }else if(imgs == "butopen"){
+                $(this).find("img").attr("src","common/img/butclose.png");
+                if($(this).hasClass("bir_block_time")){
+                    $(".intime").css("display","none");
+                }
+            }
+        })
+
+    })
+</script>
+
+<!-- 右边详情框 -->
+<div class="buju_right fl">
+    <div class="bri_top">
+        <div class="bri_top_font fl">
+            通用设置
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="bir_block">
+        <div class="bir_block_one">
+            <p>新消息提醒</p>
+            <div class="bir_block_but"><img src="common/img/butclose.png"/></div>
+            <p>勿扰模式</p>
+            <div class="bir_block_but bir_block_time"><img src="common/img/butclose.png"/></div>
+            <div class="intime" style="display:none;">
+                <p>勿扰时间</p>
+                <div class="" style="margin-top:12px;font-size:14px;">
+                    <input class="input_time" type="time" />&nbsp;&nbsp;&nbsp;&nbsp;至&nbsp;&nbsp;&nbsp;&nbsp;<input type="time">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 右边详情框 -->

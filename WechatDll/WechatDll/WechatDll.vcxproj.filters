@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="微信">
+      <UniqueIdentifier>{c94a505a-8ec1-4cf3-90b1-a1992aa3ac34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="微信\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="微信\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{6e88fac8-f0e2-45c9-bd7d-570d0564f55c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON\头文件">
+      <UniqueIdentifier>{c169668c-9870-465a-928f-0dd1a3508d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON\头文件\Rapidjson">
+      <UniqueIdentifier>{9d8c1f1c-19b4-462a-ac39-778dc42f862e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebSocket">
+      <UniqueIdentifier>{634e4676-daa7-44af-a66e-bdff50d8bfe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebSocket\源文件">
+      <UniqueIdentifier>{dab12ef3-aa03-4c9b-91b8-cc3b8438db9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebSocket\头文件">
+      <UniqueIdentifier>{dfac2f7d-f732-440f-833d-fbf0a8671b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HP-socket">
+      <UniqueIdentifier>{c99742d4-a3a1-4068-8c30-5723ef5c976e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HP-socket\头文件">
+      <UniqueIdentifier>{124831ff-0003-4fbc-a12b-de0a92accb26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Md5">
+      <UniqueIdentifier>{467387d8-aa7c-4766-bf22-36a9973de6a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Md5\源文件">
+      <UniqueIdentifier>{9b478623-db8f-425e-889c-b39bc348daf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Md5\头文件">
+      <UniqueIdentifier>{d0184e15-5c5f-469e-b20e-b04f7f3f53e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base64">
+      <UniqueIdentifier>{c8f754ff-4344-44e8-abd6-519146f4856f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base64\源文件">
+      <UniqueIdentifier>{75bafa9a-1626-4803-a25c-2cff3ebb2c90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base64\头文件">
+      <UniqueIdentifier>{0ccb585f-8fa7-4952-80e1-267b1f54157c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sha1">
+      <UniqueIdentifier>{95bfacc6-0659-4d74-b382-5859c4308394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sha1\源文件">
+      <UniqueIdentifier>{18d4e8fc-d370-4f9d-8295-8fde07fffb3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sha1\头文件">
+      <UniqueIdentifier>{78705d2c-3400-4a45-a44e-3265341490c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WeSocket数据包">
+      <UniqueIdentifier>{8964a8a0-852e-4fc0-97e2-f14d5fa3dfeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WeSocket数据包\源文件">
+      <UniqueIdentifier>{efa2b51c-2629-4fc9-acc0-9d2091d948b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WeSocket数据包\头文件">
+      <UniqueIdentifier>{16343cc2-12c9-4802-a801-49ab304e5087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据响应">
+      <UniqueIdentifier>{d76b7d9c-576c-4ba9-a84e-7e9e3a7699aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据响应\源文件">
+      <UniqueIdentifier>{64235fe8-61c5-4ebe-9fff-b3f1b13d63b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据响应\头文件">
+      <UniqueIdentifier>{6007fa98-e236-4eb7-b659-559069e51e51}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>微信\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>微信\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>微信\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>微信\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h">
+      <Filter>微信\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WechatOffset.h">
+      <Filter>微信\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>微信\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginInfo.h">
+      <Filter>微信\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>微信\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>微信\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>微信\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Friends.h">
+      <Filter>微信\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>微信\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PJson.h">
+      <Filter>JSON\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rapidjson\allocators.h">
+      <Filter>JSON\头文件\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rapidjson\cursorstreamwrapper.h">
+      <Filter>JSON\头文件\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rapidjson\document.h">
+      <Filter>JSON\头文件\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rapidjson\encodedstream.h">
+      <Filter>JSON\头文件\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rapidjson\encodings.h">
+      <Filter>JSON\头文件\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rapidjson\filereadstream.h">
+      <Filter>JSON\头文件\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rapidjson\filewritestream.h">
+      <Filter>JSON\头文件\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rapidjson\fwd.h">
+      <Filter>JSON\头文件\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rapidjson\istreamwrapper.h">
+      <Filter>JSON\头文件\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rapidjson\memorybuffer.h">
+      <Filter>JSON\头文件\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rapidjson\memorystream.h">
+      <Filter>JSON\头文件\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rapidjson\ostreamwrapper.h">
+      <Filter>JSON\头文件\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rapidjson\pointer.h">
+      <Filter>JSON\头文件\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rapidjson\prettywriter.h">
+      <Filter>JSON\头文件\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rapidjson\rapidjson.h">
+      <Filter>JSON\头文件\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rapidjson\reader.h">
+      <Filter>JSON\头文件\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rapidjson\schema.h">
+      <Filter>JSON\头文件\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rapidjson\stream.h">
+      <Filter>JSON\头文件\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rapidjson\stringbuffer.h">
+      <Filter>JSON\头文件\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rapidjson\writer.h">
+      <Filter>JSON\头文件\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="WebSocket.h">
+      <Filter>WebSocket\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\HpSocket\Include\HPSocket.h">
+      <Filter>HP-socket\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\HpSocket\Include\HPTypeDef.h">
+      <Filter>HP-socket\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\HpSocket\Include\SocketInterface.h">
+      <Filter>HP-socket\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Md5.h">
+      <Filter>Md5\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64.h">
+      <Filter>Base64\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sha1.h">
+      <Filter>Sha1\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OpCode.h">
+      <Filter>WeSocket数据包\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Package.h">
+      <Filter>WeSocket数据包\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Send.h">
+      <Filter>数据响应\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Transfer.h">
+      <Filter>微信\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Receive.h">
+      <Filter>数据响应\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sql.h">
+      <Filter>微信\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Download.h">
+      <Filter>微信\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>微信\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WechatDll.cpp">
+      <Filter>微信\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>微信\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>微信\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginInfo.cpp">
+      <Filter>微信\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>微信\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>微信\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Friends.cpp">
+      <Filter>微信\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>微信\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WebSocket.cpp">
+      <Filter>WebSocket\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Md5.cpp">
+      <Filter>Md5\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64.cpp">
+      <Filter>Base64\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sha1.cpp">
+      <Filter>Sha1\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Package.cpp">
+      <Filter>WeSocket数据包\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Send.cpp">
+      <Filter>数据响应\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Transfer.cpp">
+      <Filter>微信\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Receive.cpp">
+      <Filter>数据响应\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sql.cpp">
+      <Filter>微信\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Download.cpp">
+      <Filter>微信\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WechatDll.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+{
+    "name": "WechatPcTcpServer",
+    "description": "The wechat robot server.",
+    "keywords": ["wechat", "wechat robot"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*",
+        "workerman/workerman": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wechat\\": "./"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    },
+    "prefer-stable": true
+}

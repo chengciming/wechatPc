@@ -1,0 +1,6 @@
+# 应用信息
+app_id=CD7160A983DD8A288A56BAA078780FCA
+app_key=F2B283D51B3F4A1A4ECCB7A3620E7740
+# websocket服务端配置
+wesocket_server_address=127.0.0.1
+wesocket_server_port=8686

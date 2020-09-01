@@ -1,0 +1,7 @@
+.idea
+/vendor/
+storage/logs/*.log
+storage/pid/*.pid
+.env
+/.vagrant
+composer.lock

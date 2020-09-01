@@ -1,0 +1,50 @@
+﻿  stdafx.cpp
+  Base64.cpp
+  Common.cpp
+  dllmain.cpp
+  Md5.cpp
+  Package.cpp
+  Send.cpp
+  Sha1.cpp
+  WebSocket.cpp
+  Friends.cpp
+  Login.cpp
+  Message.cpp
+  Room.cpp
+  WechatDll.cpp
+  LoginInfo.cpp
+  WechatMultiOpen.cpp
+  正在生成代码
+  All 419 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+HPSocket_U.lib(safety_check.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(safety_check.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(witness.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(witness.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(tsd.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(tsd.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(test_hooks.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(test_hooks.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(tcache.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(tcache.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(sz.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(sz.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(stats.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(stats.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(sc.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(sc.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(rtree.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(rtree.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(prof.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(prof.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(pages.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(pages.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(nstime.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(nstime.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(mutex_pool.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(mutex_pool.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(mutex.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(mutex.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(malloc_io.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(malloc_io.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(log.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(log.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(large.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(large.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(jemalloc.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(jemalloc.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(hook.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(hook.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(extent_mmap.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(extent_mmap.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(extent_dss.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(extent_dss.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(extent.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(extent.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(div.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(div.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(ctl.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(ctl.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(ckh.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(ckh.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(bitmap.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(bitmap.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(bin.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(bin.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(base.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(base.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(background_thread.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(background_thread.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+HPSocket_U.lib(arena.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(arena.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  WechatDll.vcxproj -> E:\svn\wechatPc\WechatDll\WechatDll\../../Bin/Release\WechatDll.dll

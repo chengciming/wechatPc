@@ -1,0 +1,276 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>灰信</title>
+    <link rel="shortcut icon" type="image/x-icon" href="common/img/logo_256.ico">
+    <link rel="stylesheet" type="text/css" href="common/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="common/css/style.css"/>
+    <script type="text/javascript" src="common/js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="common/js/qrcode.min.js"></script>
+    <script type="text/javascript" src="common/js/seach.js"></script>
+    <script type="text/javascript" src="common/js/base.js"></script>
+    <script type="text/javascript" src="common/js/operation.js"></script>
+    <script type="text/javascript" src="common/js/package.js"></script>
+    <script type="text/javascript" src="common/js/websocket.js"></script>
+</head>
+<body>
+<div class="buju relative">
+	<div class="login_qrcode">
+    	<div class="login_qrcode_body"></div>
+        <div class="login_qrcode_content">
+        	<div class="login_qrcode_content_text">手机扫描二维码登录</div>
+            <div class="login_qrcode_content_img"></div>
+        </div>
+    </div>
+	<div class="network_notice">
+        <div class="network_notice_text"><img src="common/img/close.png" />&nbsp;与服务器连接已断开，正在重新连接，请稍等！</div>
+        <div class="clear"></div>
+    </div>
+    <!-- 左侧功能图标 -->
+    <div class="buju_left fl">
+        <div class="bleft_face fl">
+            <div class="login_face">
+            	<img class="login_face_img" src="common/img/user-48.png"/>
+            </div>
+        </div>
+        
+        <div class="bleft_iconone fl" data-div-id="friends" data-active="common/img/chat021.png", data-not-active="common/img/chat020.png">
+            <img src="common/img/chat021.png" width="100%"/>
+        </div>
+        <div class="bleft_iconone fl" data-div-id="more" data-active="common/img/chat031.png", data-not-active="common/img/chat030.png">
+            <img src="common/img/chat030.png" width="100%"/>
+        </div>
+        
+        <div class="account_ico fl">
+            <img src="common/img/logo100x100.png" width="100%"/>
+            <div class="account_list" style="display:none;">
+            	<div class="brce_lt_jiao"></div>
+                <div class="account_one account_one_add">
+                    <div class="account_one_face fl">
+                        <img src="common/img/add002.png" width="30" height="30" />
+                    </div>
+                    <div class="account_one_font fl" onClick="openWechat();">新开一个</div>
+                </div>
+                <div class="account_list_content"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 最左侧功能图标 -->
+    
+    <div id="friends" class="content">
+    	<!-- 中间功能列表-->
+        <div class="buju_center fl">
+            <div class="bcen_seach fl">
+                <div class="bcen_seach_font fl">搜索</div>
+                <input type="text" style="display:none;" class="fl"/>
+                <div class="bcen_seach_close fr" style="display:none;"><img src="common/img/close.png"/></div>
+                <div class="bcen_seach_but fr">
+                    <img src="common/img/seach.png" width="100%"/>
+                </div>
+            </div>
+            <a href="javascript:void(0);" onClick="addfris()">
+                <div class="bcen_add fl">
+                    <img src="common/img/add001.png"/>
+                </div>
+            </a>
+            <div class="bcen_scroll" style="position:absolute;right:0px;top:62px;display:none;"></div>
+            <div class="clear"></div>
+            <div class="bcen_box">
+                <div class="bcen_jilu friend_list"></div>
+            </div>
+        </div>
+        <!-- 中间功能列表-->
+        <!-- 右边对话框 -->
+        <div class="buju_right fl">
+            <div class="bri_top">
+                <div class="bri_top_font fl">
+                    ******
+                </div>
+                <div class="bri_top_more fr"></div>
+                <div class="clear"></div>
+            </div>
+            <div class="bri_center">
+                <div class="bri_center_scroll" style="display:none;"></div>
+                <div class="bri_center_block">
+                    <div class="brce_block_box"></div>
+                </div>
+            </div>
+            <div class="bri_bottom">
+                <div class="bri_bottom_face fl" title="表情"></div>
+                <div class="bri_bottom_look" style="display:none;">
+                    <div class="bri_blook_center">
+                        <div class="fl">
+                            <img src="common/img/look001.png" title="微笑"/>
+                        </div>
+                        <div class="fl">
+                            <img src="common/img/look002.png" title="撇嘴"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="bri_bottom_file fl" title="发送文件"></div>
+                <input type="file" class="bri_bottom_files" style="display:none;"/>
+                <div class="bri_bottom_iphone fr" title="语音聊天"></div>
+                <div class="clear"></div>
+                <textarea></textarea>
+                <div class="bri_bottom_but fr">发送</div>
+                <div class="bri_bottom_empty" style="display:none;">不能发送空白信息</div>
+            </div>
+        </div>
+        <!-- 右边对话框 -->
+    </div>
+    
+    <div id="more" class="content" style="display:none;">
+        <!-- 右边详情框 -->
+        <div class="buju_right fl">
+            <div class="bri_top">
+                <div class="bri_top_font fl">
+                    关于灰信
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="bir_block">
+                <div class="bir_block_face">
+                    <img src="common/img/logo200x200.png" width="100" height="100"/>
+                </div>
+                <div class="bir_block_title">灰信</div>
+                <div class="bir_block_num">V1.0.0</div>
+                <div class="bir_block_line">软件说明.</div>
+            </div>
+            <div class="bir_block">
+                <a href="javascript:;"><div class="bir_block_exit">退出登录</div></a>
+            </div>
+        </div>
+        <!-- 右边详情框 -->
+    </div>
+    
+    <div class="clear"></div>
+</div>
+
+<!-- 添加弹框 -->
+<div class="buju_add" style="display:none;">
+    <div class="ba_left fl">
+        <div class="ba_left_seach">
+            <input type="text" class="fl" placeholder="搜索"/>
+            <img class="ba_lefts_seach fr" src="common/img/seach.png"/>
+            <img class="ba_lefts_close fr" style="display:none;" src="common/img/close.png"/>
+        </div>
+        <div class="ba_left_fri">
+            <div class="ba_leftf_scroll" style="position:absolute;right:0px;display:none;"></div>
+            <div class="ba_leftf_box"></div>
+        </div>
+    </div>
+    <div class="ba_right fl">
+        <div class="buju_add_close" onClick="addclose()"></div>
+        <div class="ba_right_top">请勾选需要添加的联系人</div>
+        <div class="ba_right_fri">
+            <div class="ba_rif_scroll" style="position:absolute;right:0px;display:none;"></div>
+            <div class="ba_rif_box">
+                <div></div>
+            </div>
+        </div>
+        <div class="ba_ri_exit fr" onClick="addclose()">取消</div>
+        <div class="ba_ri_but fr">确定</div>
+    </div>
+</div>
+<!-- 添加弹框 -->
+
+<!-- 详情设置框 -->
+<div class="buju_info fr" style="display:none;">
+    <!-- 单聊设置 -->
+	<div class="friend_chat" style="display:none;">
+    	<div class="friend_chat_add fl">
+            <div class="bin_four_add"></div>
+            <div class="bin_four_name over">添加</div>
+        </div>
+    	<div class="bin_one">
+            <div class="bin_one_face">
+                <img src="common/img/face003.jpg"/>
+            </div>
+            <div class="bin_one_name over">****</div>
+        </div>
+    </div>
+    <!-- 单聊设置 -->
+    <!-- 群聊设置 -->
+    <div class="bin_four_box room_chat" style="display:none;">
+        <div>
+            <div class="bin_three">
+                <input type="text" placeholder="搜索群成员" class="fl"/>
+                <img src="common/img/seach.png" class="bin_three_seach fr"/>
+                <img src="common/img/close.png" class="bin_three_close fr" style="display:none"/>
+            </div>
+            <div class="bin_four">
+                <div class="fl" onClick="addfriend()">
+                    <div class="bin_four_add"></div>
+                    <div class="bin_four_name over">添加</div>
+                </div>
+                <div class="fl">
+                    <div class="bin_one_face">
+                        <img src="common/img/face003.jpg"/>
+                    </div>
+                    <div class="bin_four_name over">冰雪</div>
+                </div>
+                <div class="fl">
+                    <div class="bin_one_face">
+                        <img src="common/img/face001.jpg"/>
+                    </div>
+                    <div class="bin_four_name over">小圣贤庄张三</div>
+                </div>
+                <div class="clear"></div>
+                <div class="bin_four_more"><label>查看更多群成员</label> <img src="common/img/down001.png"/></div>
+                <div class="bin_four_border"></div>
+            </div>
+            <!-- 群聊设置 -->
+            <div class="bin_five">
+                <p>群名</p>
+                <div class="bin_five_text fl">****</div>
+                <input type="hidden" value="" class="bin_five_name"/>
+                <img src="common/img/edit.jpg" class="bin_five_text_img fl" style="display:none;" />
+                <div class="clear"></div>
+                <p>群公告</p>
+                <div class="bin_five_note over3 fl">点击编辑并发送群公告</div>
+                <input type="hidden" value="" class="bin_five_note_edit"/>
+                <img src="common/img/edit.jpg" class="bin_five_note_img fl" />
+                <div class="clear"></div>
+            </div>
+            <a href=""><div class="bin_six">删除并退出</div></a>
+        </div>
+    </div>
+</div>
+<!-- 详情设置框 -->
+<!-- 个人资料详情 -->
+<div class="wx_info_content" style="display:none;">
+    <!--上面-->
+    <div class="wx_info_top">
+        <div class="wx_info_top_left fl">
+            <div class="wx_info_top_left_nickname"><b class="wx_info_top_left_nickname_text fl">****</b><img src="common/img/man.jpg" class="wx_info_top_left_sex_img fl" width="14" height="14" /></div>
+            <div class="wx_info_top_left_wxid"><div class="fl">微信号：</div><div class="wx_info_top_left_wxid_text fl">****</div></div>
+        </div>
+        <div class="wx_info_top_right fr">
+            <img src="common/img/user-192.png" class="wx_info_top_right_head_url" width="60" height="60" />
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="wx_info_top_border"></div>
+    <!--下面-->
+    <div class="wx_info_bottom">
+        <div class="wx_info_bottom_header">
+            <div class="wx_info_top_left_area">地区&nbsp;&nbsp;<span class="wx_info_top_left_area_text">** **</span></div>
+            <div>
+            	<div class="wx_info_top_left_remark fl">备注&nbsp;&nbsp;<span class="wx_info_top_left_remark_text">** **</span></div>
+                <input type="hidden" value="" class="wx_info_top_left_input fl" />
+                <img src="common/img/edit.jpg" class="wx_info_top_left_img fl" style="display:none;" />
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="wx_info_bottom_footer">
+            <div class="fr">
+                <div class="wx_info_bottom_footer_chat fl"><img src="common/img/share.jpg" width="26" height="26" /></div>
+                <div class="wx_info_bottom_footer_chat fl"><img src="common/img/chat.jpg" width="26" height="26" /></div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+</body>
+</html>
