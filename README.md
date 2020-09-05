@@ -19,6 +19,7 @@
 2. 程序语言：exe和DLL库是C++编写，服务端是PHP的workman框架编写，web端是HTML5编写。
 3. 限制：此程序仅限PC端微信2.8.0.121版本，需要其他版本则需要更新Hook偏移量。
 4. 升级：微信2.8.0.121升级到其他版本，可以借助《微信基址-2.8.0.121.txt》里面的特征码进行OD捕获偏移量。
+5. 实现的功能：[点击这里查看](https://github.com/chengciming/wechatPc/blob/master/WechatDll/WechatDll/WechatOffset.h)
 
 ## 程序语言版本
 1. C++是基于VS2017开发，SDK版本：10.0.17763.0，工具集：v141，MFC：标准Window库
@@ -72,5 +73,5 @@ Server:Wechat        websocket://0.0.0.0:8686            4         [ok]
 1. nginx或者其他web服务器指定站点到Web目录即可访问，或尝试直接浏览器打开访问index.html
 ```
 ## 大佬，打个赏吧
-![微信收款二维码](https://github.com/chengciming/wechatPc/blob/master/images/微信收款二维码.jpg)
-![支付宝收款二维码](https://github.com/chengciming/wechatPc/blob/master/images/支付宝收款二维码.jpg)
+![微信打赏二维码](https://github.com/chengciming/wechatPc/blob/master/images/微信打赏二维码.jpg)
+![支付宝打赏二维码](https://github.com/chengciming/wechatPc/blob/master/images/支付宝打赏二维码.jpg)
