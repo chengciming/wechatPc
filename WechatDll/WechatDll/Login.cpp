@@ -72,7 +72,6 @@ bool SendLoginStatus(bool sendQrcode)
 */
 void GotoQrCode()
 {
-	return;
 	// 获取微信基址
 	DWORD winAddress = GetWechatWinAddress();
 
