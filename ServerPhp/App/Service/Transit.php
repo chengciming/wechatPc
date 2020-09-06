@@ -53,9 +53,7 @@ class Transit
                     $connection = $package->getConnection();
                     // 绑定关系
                     foreach ($wechatIdList ?? [] as $wechatId) {
-                        // TODO: 不存在浏览器，取第一个链接，暂时为了调试用的
                         $webConnection = ConnectionPool::getRand(self::$webListenPort);
-                        echo $wechatId."\n\n\n";
                         // 绑定关系
                         self::bindWechatConnection($webConnection, $wechatId, $connection);
                         // 获取登录状态

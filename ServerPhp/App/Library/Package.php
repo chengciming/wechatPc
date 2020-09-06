@@ -198,6 +198,9 @@ class Package
     {
         $body = $this->package['package']['body'];
         $body = empty($body) ? [] : $body;
+        if (is_object($body)) {
+            $body = (array)$body;
+        }
         return $body;
     }
 
