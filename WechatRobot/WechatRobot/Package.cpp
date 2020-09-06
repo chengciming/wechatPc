@@ -59,7 +59,7 @@ void Package::SetConText(char *jsonStr)
 	this->json.Parse(jsonStr);
 
 	// 客户端的应用ID，字符串，最长32位
-	if (this->json["appId"].IsNull()) {
+	if (!this->json.HasMember("appId") || this->json["appId"].IsNull()) {
 		this->SetAppId(NULL);
 	}
 	else {
@@ -67,10 +67,8 @@ void Package::SetConText(char *jsonStr)
 		Value& appId = this->json["appId"];
 		this->SetAppId((char*)appId.GetString());
 	}
-
 	// 客户端的应用KEY，字符串，最长32位
-	if (!this->json.HasMember("appKey")) return;
-	if (this->json["appKey"].IsNull()) {
+	if (!this->json.HasMember("appKey") || this->json["appKey"].IsNull()) {
 		this->SetAppKey(NULL);
 	}
 	else {
@@ -78,23 +76,19 @@ void Package::SetConText(char *jsonStr)
 		Value& appKey = this->json["appKey"];
 		this->SetAppKey((char*)appKey.GetString());
 	}
-
 	if (!this->json.HasMember("package")) return;
 	if (!this->json["package"].IsObject()) return;
 	rapidjson::Value& packageObject = this->json["package"];
-
 	// 数据包唯一ID，字符串，最长32位
 	if (!packageObject.HasMember("uniqueId")) return;
 	if (!packageObject["uniqueId"].IsString()) return;
 	Value& uniqueId = packageObject["uniqueId"];
 	this->SetUniqueId((char*)uniqueId.GetString());
-
 	// 发送时间，毫秒级时间戳，字符串，13位
 	if (!packageObject.HasMember("timestamp")) return;
 	if (!packageObject["timestamp"].IsString()) return;
 	Value& timestamp = packageObject["timestamp"];
 	this->SetTimestamp((char*)timestamp.GetString());
-
 	// 接收指令的目标微信客户端ID，每开一个微信客户端带有一个唯一ID，无目标客户端则为null，字符串或null
 	if (!packageObject.HasMember("wechatId")) return;
 	if (packageObject["wechatId"].IsNull()) {
@@ -105,13 +99,11 @@ void Package::SetConText(char *jsonStr)
 		Value& wechatId = packageObject["wechatId"];
 		this->SetWechatId((char*)wechatId.GetString());
 	}
-	
 	// 操作指令，16进制数值
 	if (!packageObject.HasMember("opCode")) return;
 	if (!packageObject["opCode"].IsInt()) return;
 	Value& opCode = packageObject["opCode"];
 	this->SetOpCode(opCode.GetInt());
-
 	// 业务主体对象
 	if (!packageObject.HasMember("body")) return;
 	Value& body = packageObject["body"];
