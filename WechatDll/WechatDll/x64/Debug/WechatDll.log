@@ -1,0 +1,662 @@
+﻿  stdafx.cpp
+  Base64.cpp
+e:\git\wechatpc\wechatdll\wechatdll\base64.cpp(73): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  Common.cpp
+e:\git\wechatpc\wechatdll\wechatdll\common.cpp(36): error C2664: “HMODULE LoadLibraryA(LPCSTR)”: 无法将参数 1 从“const wchar_t [14]”转换为“LPCSTR”
+  e:\git\wechatpc\wechatdll\wechatdll\common.cpp(36): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\git\wechatpc\wechatdll\wechatdll\common.cpp(37): warning C4311: “类型强制转换”: 从“HMODULE”到“DWORD”的指针截断
+e:\git\wechatpc\wechatdll\wechatdll\common.cpp(37): warning C4302: “类型强制转换”: 从“HMODULE”到“DWORD”截断
+e:\git\wechatpc\wechatdll\wechatdll\common.cpp(65): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\common.cpp(77): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\common.cpp(77): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“WCHAR *”
+  dllmain.cpp
+e:\git\wechatpc\wechatdll\wechatdll\websocket.h(9): fatal error C1083: 无法打开包括文件: “HPSocket.h”: No such file or directory
+  Download.cpp
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(49): warning C4309: “初始化”: 截断常量值
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(50): warning C4309: “初始化”: 截断常量值
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(56): warning C4309: “=”: 截断常量值
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(121): warning C4311: “类型强制转换”: 从“wchar_t *”到“DWORD”的指针截断
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(121): warning C4302: “类型强制转换”: 从“wchar_t *”到“DWORD”截断
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(125): warning C4311: “类型强制转换”: 从“wchar_t *”到“DWORD”的指针截断
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(125): warning C4302: “类型强制转换”: 从“wchar_t *”到“DWORD”截断
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(133): warning C4311: “类型强制转换”: 从“wchar_t *”到“DWORD”的指针截断
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(133): warning C4302: “类型强制转换”: 从“wchar_t *”到“DWORD”截断
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(137): warning C4311: “类型强制转换”: 从“wchar_t *”到“DWORD”的指针截断
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(137): warning C4302: “类型强制转换”: 从“wchar_t *”到“DWORD”截断
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(143): warning C4311: “类型强制转换”: 从“wchar_t *”到“DWORD”的指针截断
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(143): warning C4302: “类型强制转换”: 从“wchar_t *”到“DWORD”截断
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(147): warning C4311: “类型强制转换”: 从“wchar_t *”到“DWORD”的指针截断
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(147): warning C4302: “类型强制转换”: 从“wchar_t *”到“DWORD”截断
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(151): warning C4311: “类型强制转换”: 从“wchar_t *”到“DWORD”的指针截断
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(151): warning C4302: “类型强制转换”: 从“wchar_t *”到“DWORD”截断
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(155): warning C4311: “类型强制转换”: 从“wchar_t *”到“DWORD”的指针截断
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(155): warning C4302: “类型强制转换”: 从“wchar_t *”到“DWORD”截断
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(165): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(166): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(170): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(171): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(223): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(224): error C2065: “pushad”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(226): error C2146: 语法错误: 缺少“;”(在标识符“lea”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(226): error C2065: “lea”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(226): error C2146: 语法错误: 缺少“;”(在标识符“ebx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(226): error C2065: “ebx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(227): error C2146: 语法错误: 缺少“;”(在标识符“lea”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(227): error C2065: “lea”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(227): error C2146: 语法错误: 缺少“;”(在标识符“edi”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(227): error C2065: “edi”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(228): error C2146: 语法错误: 缺少“;”(在标识符“lea”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(228): error C2065: “lea”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(228): error C2146: 语法错误: 缺少“;”(在标识符“esi”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(228): error C2065: “esi”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(230): error C2146: 语法错误: 缺少“;”(在标识符“lea”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(230): error C2065: “lea”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(230): error C2146: 语法错误: 缺少“;”(在标识符“esp”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(230): error C2065: “esp”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(231): error C2146: 语法错误: 缺少“;”(在标识符“lea”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(231): error C2065: “lea”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(231): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(231): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(232): error C2146: 语法错误: 缺少“;”(在标识符“lea”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(232): error C2065: “lea”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(232): error C2146: 语法错误: 缺少“;”(在标识符“edx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(232): error C2065: “edx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(232): error C2065: “dword”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(232): error C2146: 语法错误: 缺少“;”(在标识符“ptr”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(232): error C2065: “ptr”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(233): error C2146: 语法错误: 缺少“;”(在标识符“buffer”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(233): error C2146: 语法错误: 缺少“;”(在标识符“lea”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(233): error C2065: “lea”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(233): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(233): error C2065: “ecx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(233): error C2065: “dword”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(233): error C2146: 语法错误: 缺少“;”(在标识符“ptr”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(233): error C2065: “ptr”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(234): error C2146: 语法错误: 缺少“;”(在标识符“buff”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(234): error C2146: 语法错误: 缺少“;”(在标识符“call”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(234): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(234): error C2146: 语法错误: 缺少“;”(在标识符“dwCallAddr”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(236): error C2065: “popad”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\download.cpp(237): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  Md5.cpp
+e:\git\wechatpc\wechatdll\wechatdll\md5.cpp(123): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\md5.cpp(133): warning C4267: “=”: 从“size_t”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=unsigned int
+          ]
+  Package.cpp
+e:\git\wechatpc\wechatdll\wechatdll\package.cpp(108): warning C4267: “参数”: 从“size_t”转换到“rapidjson::SizeType”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\package.cpp(127): warning C4267: “参数”: 从“size_t”转换到“rapidjson::SizeType”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\package.cpp(144): warning C4267: “参数”: 从“size_t”转换到“rapidjson::SizeType”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\package.cpp(147): warning C4267: “参数”: 从“size_t”转换到“rapidjson::SizeType”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\package.cpp(161): warning C4267: “参数”: 从“size_t”转换到“rapidjson::SizeType”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\package.cpp(164): warning C4267: “参数”: 从“size_t”转换到“rapidjson::SizeType”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\package.cpp(183): warning C4267: “参数”: 从“size_t”转换到“rapidjson::SizeType”，可能丢失数据
+  Receive.cpp
+e:\git\wechatpc\wechatdll\wechatdll\websocket.h(9): fatal error C1083: 无法打开包括文件: “HPSocket.h”: No such file or directory
+  Send.cpp
+e:\git\wechatpc\wechatdll\wechatdll\websocket.h(9): fatal error C1083: 无法打开包括文件: “HPSocket.h”: No such file or directory
+  Sha1.cpp
+e:\git\wechatpc\wechatdll\wechatdll\sha1.cpp(218): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  Sql.cpp
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(24): warning C4312: “类型强制转换”: 从“int”转换到更大的“char *”
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(36): error C2485: “naked”: 无法识别的扩展特性
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(38): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(40): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(40): error C2146: 语法错误: 缺少“;”(在标识符“esi”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(40): error C2065: “esi”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(40): error C2065: “dword”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(40): error C2146: 语法错误: 缺少“;”(在标识符“ptr”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(40): error C2065: “ptr”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(40): error C2146: 语法错误: 缺少“;”(在标识符“ss”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(40): error C2337: “ebp”: 未找到特性
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(40): error C2143: 语法错误: 缺少“]”(在“-”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(40): error C2059: 语法错误:“-”
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(60): warning C4311: “类型强制转换”: 从“void (__cdecl *)(void)”到“DWORD”的指针截断
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(60): warning C4302: “类型强制转换”: 从“void (__cdecl *)(void)”到“DWORD”截断
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(61): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(72): warning C4312: “类型强制转换”: 从“int”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(74): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(75): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(75): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(75): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(76): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(76): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(76): error C2143: 语法错误: 缺少“;”(在“常数”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(77): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(77): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(77): error C2143: 语法错误: 缺少“;”(在“常数”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(78): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(78): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(79): error C2146: 语法错误: 缺少“;”(在标识符“asmCallback”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(79): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(79): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(80): error C2146: 语法错误: 缺少“;”(在标识符“sql”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(80): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(80): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(81): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(80): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(81): error C2146: 语法错误: 缺少“;”(在标识符“call”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(81): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(82): error C2146: 语法错误: 缺少“;”(在标识符“callAddr”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(82): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(82): error C2065: “add”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(82): error C2146: 语法错误: 缺少“;”(在标识符“esp”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(82): error C2065: “esp”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\sql.cpp(83): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  Transfer.cpp
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(26): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(27): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(29): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(30): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(37): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(39): error C2065: “sub”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(39): error C2146: 语法错误: 缺少“;”(在标识符“esp”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(39): error C2065: “esp”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(40): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(40): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(40): error C2065: “ecx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(40): error C2065: “esp”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(41): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(41): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(41): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(42): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(42): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(42): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(43): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(43): error C2146: 语法错误: 缺少“;”(在标识符“dwCall1”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(44): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(44): error C2146: 语法错误: 缺少“;”(在标识符“dwCall2”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(45): error C2065: “add”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(45): error C2146: 语法错误: 缺少“;”(在标识符“esp”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(45): error C2065: “esp”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(51): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(52): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\transfer.cpp(54): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  WebSocket.cpp
+e:\git\wechatpc\wechatdll\wechatdll\websocket.h(9): fatal error C1083: 无法打开包括文件: “HPSocket.h”: No such file or directory
+  Friends.cpp
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(262): error C2485: “naked”: 无法识别的扩展特性
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(265): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(271): error C2065: “pushad”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(273): error C2146: 语法错误: 缺少“;”(在标识符“pushf”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(272): error C2065: “pushf”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(273): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(279): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(281): error C2065: “popf”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(285): error C2146: 语法错误: 缺少“;”(在标识符“popad”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(282): error C2065: “popad”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(285): error C2146: 语法错误: 缺少“;”(在标识符“call”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(285): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(288): error C2146: 语法错误: 缺少“;”(在标识符“friendsOverWritedCallAdd”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(288): error C2146: 语法错误: 缺少“;”(在标识符“jmp”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(288): error C2065: “jmp”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(289): error C2146: 语法错误: 缺少“;”(在标识符“friendsJumBackAddress”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(289): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(366): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(414): warning C4311: “类型强制转换”: 从“void (__cdecl *)(void)”到“DWORD”的指针截断
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(414): warning C4302: “类型强制转换”: 从“void (__cdecl *)(void)”到“DWORD”截断
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(418): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(436): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(440): warning C4311: “类型强制转换”: 从“char (*)[588]”到“DWORD”的指针截断
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(440): warning C4302: “类型强制转换”: 从“char (*)[588]”到“DWORD”截断
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(442): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(443): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(445): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(446): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(453): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(454): error C2065: “pushad”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(455): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(455): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(455): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(455): error C2065: “ecx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(456): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(456): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(456): error C2143: 语法错误: 缺少“;”(在“常数”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(457): error C2146: 语法错误: 缺少“;”(在标识符“sub”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(457): error C2065: “sub”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(457): error C2146: 语法错误: 缺少“;”(在标识符“esp”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(457): error C2065: “esp”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(458): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(458): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(459): error C2146: 语法错误: 缺少“;”(在标识符“esp”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(458): error C2065: “esp”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(459): error C2146: 语法错误: 缺少“;”(在标识符“call”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(459): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(460): error C2146: 语法错误: 缺少“;”(在标识符“call1”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(460): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(460): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(460): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(460): error C2065: “ecx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(461): error C2146: 语法错误: 缺少“;”(在标识符“lea”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(461): error C2065: “lea”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(461): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(461): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(462): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(462): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(463): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(462): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(463): error C2146: 语法错误: 缺少“;”(在标识符“call”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(463): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(464): error C2146: 语法错误: 缺少“;”(在标识符“call2”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(464): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(464): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(464): error C2146: 语法错误: 缺少“;”(在标识符“esi”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(464): error C2065: “esi”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(464): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(465): error C2146: 语法错误: 缺少“;”(在标识符“sub”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(465): error C2065: “sub”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(465): error C2146: 语法错误: 缺少“;”(在标识符“esp”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(465): error C2065: “esp”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(466): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(466): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(466): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(466): error C2065: “ecx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(467): error C2146: 语法错误: 缺少“;”(在标识符“call”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(467): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(468): error C2146: 语法错误: 缺少“;”(在标识符“call3”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(468): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(468): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(468): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(468): error C2065: “ecx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(469): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(469): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(469): error C2146: 语法错误: 缺少“;”(在标识符“edx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(469): error C2065: “edx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(469): error C2065: “ecx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(470): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(470): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(471): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(470): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(471): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(471): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(472): error C2146: 语法错误: 缺少“;”(在标识符“edx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(471): error C2065: “edx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(472): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(472): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(473): error C2146: 语法错误: 缺少“;”(在标识符“esi”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(472): error C2065: “esi”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(473): error C2146: 语法错误: 缺少“;”(在标识符“call”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(473): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(474): error C2146: 语法错误: 缺少“;”(在标识符“call4”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(475): error C2146: 语法错误: 缺少“;”(在标识符“popad”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(474): error C2065: “popad”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(475): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(495): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(496): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(500): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(501): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(505): warning C4311: “类型强制转换”: 从“wchar_t *”到“DWORD”的指针截断
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(505): warning C4302: “类型强制转换”: 从“wchar_t *”到“DWORD”截断
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(509): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(510): error C2065: “pushad”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(511): error C2146: 语法错误: 缺少“;”(在标识符“sub”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(511): error C2065: “sub”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(511): error C2146: 语法错误: 缺少“;”(在标识符“esp”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(511): error C2065: “esp”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(512): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(512): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(512): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(512): error C2065: “ecx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\friends.cpp(512): fatal error C1003: 错误计数超过 100；正在停止编译
+  Login.cpp
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(16): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(17): error C2065: “pushad”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(18): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(18): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(18): error C2143: 语法错误: 缺少“;”(在“常数”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(19): error C2146: 语法错误: 缺少“;”(在标识符“call”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(19): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(19): error C2146: 语法错误: 缺少“;”(在标识符“dwCallAddr”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(20): error C2065: “popad”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(21): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(31): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“void *”
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(56): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(57): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(58): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(86): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(87): error C2065: “pushad”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(88): error C2146: 语法错误: 缺少“;”(在标识符“call”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(88): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(88): error C2146: 语法错误: 缺少“;”(在标识符“dwCallAddr1”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(89): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(89): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(89): error C2065: “ecx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(89): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(90): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(90): error C2146: 语法错误: 缺少“;”(在标识符“dwCallAddr2”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(91): error C2065: “popad”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\login.cpp(92): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  Message.cpp
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(40): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD **”
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(43): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(90): error C2440: “初始化”: 无法从“const char [1]”转换为“std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>”
+  e:\git\wechatpc\wechatdll\wechatdll\message.cpp(90): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(125): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(140): error C2485: “naked”: 无法识别的扩展特性
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(142): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(145): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(145): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(145): error C2065: “ecx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(150): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(150): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(150): error C2146: 语法错误: 缺少“;”(在标识符“r_esp”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(150): error C2065: “esp”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(154): error C2146: 语法错误: 缺少“;”(在标识符“pushad”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(153): error C2065: “pushad”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(155): error C2146: 语法错误: 缺少“;”(在标识符“pushf”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(154): error C2065: “pushf”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(155): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(161): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(163): error C2065: “popf”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(167): error C2146: 语法错误: 缺少“;”(在标识符“popad”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(164): error C2065: “popad”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(167): error C2146: 语法错误: 缺少“;”(在标识符“jmp”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(167): error C2065: “jmp”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(168): error C2146: 语法错误: 缺少“;”(在标识符“jumBackAddress”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(168): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(215): warning C4311: “类型强制转换”: 从“void (__cdecl *)(void)”到“DWORD”的指针截断
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(215): warning C4302: “类型强制转换”: 从“void (__cdecl *)(void)”到“DWORD”截断
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(219): warning C4312: “类型强制转换”: 从“int”转换到更大的“LPVOID”
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(234): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(235): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(240): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(241): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(256): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(257): error C2065: “pushad”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(258): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(258): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(258): error C2146: 语法错误: 缺少“;”(在标识符“edx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(258): error C2065: “edx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(259): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(259): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(259): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(259): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(260): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(260): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(260): error C2143: 语法错误: 缺少“;”(在“常数”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(261): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(261): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(262): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(261): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(262): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(262): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(262): error C2146: 语法错误: 缺少“;”(在标识符“ebx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(262): error C2065: “ebx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(263): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(263): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(264): error C2146: 语法错误: 缺少“;”(在标识符“ebx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(263): error C2065: “ebx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(264): error C2146: 语法错误: 缺少“;”(在标识符“lea”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(264): error C2065: “lea”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(264): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(264): error C2065: “ecx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(265): error C2146: 语法错误: 缺少“;”(在标识符“call”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(265): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(266): error C2146: 语法错误: 缺少“;”(在标识符“sendCallAddress”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(266): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(266): error C2065: “add”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(266): error C2146: 语法错误: 缺少“;”(在标识符“esp”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(266): error C2065: “esp”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(268): error C2146: 语法错误: 缺少“;”(在标识符“popad”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(267): error C2065: “popad”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(268): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(280): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(281): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(285): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(286): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(293): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(294): error C2065: “pushad”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(295): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(295): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(295): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(295): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(296): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(296): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(296): error C2143: 语法错误: 缺少“;”(在“常数”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(297): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(297): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(297): error C2146: 语法错误: 缺少“;”(在标识符“edx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(297): error C2065: “edx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(298): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(298): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(298): error C2143: 语法错误: 缺少“;”(在“常数”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(299): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(299): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(300): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(299): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(300): error C2146: 语法错误: 缺少“;”(在标识符“lea”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(300): error C2065: “lea”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(300): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(300): error C2065: “ecx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(301): error C2146: 语法错误: 缺少“;”(在标识符“call”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(301): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(302): error C2146: 语法错误: 缺少“;”(在标识符“callAdd”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(302): error C2146: 语法错误: 缺少“;”(在标识符“add”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(302): error C2065: “add”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(302): error C2146: 语法错误: 缺少“;”(在标识符“esp”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(302): error C2065: “esp”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(304): error C2146: 语法错误: 缺少“;”(在标识符“popad”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(303): error C2065: “popad”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(304): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(318): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(319): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(324): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(325): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(340): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(342): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(344): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(345): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(347): error C2065: “lea”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(347): error C2146: 语法错误: 缺少“;”(在标识符“ebx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(347): error C2065: “ebx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(348): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(348): error C2146: 语法错误: 缺少“;”(在标识符“ebx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(348): error C2065: “ebx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(349): error C2065: “lea”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(349): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(349): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\message.cpp(349): fatal error C1003: 错误计数超过 100；正在停止编译
+  Room.cpp
+e:\git\wechatpc\wechatdll\wechatdll\room.h(69): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\room.h(70): warning C4267: “=”: 从“size_t”转换到“DWORD”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(38): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(39): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(49): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(50): error C2065: “lea”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(50): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(50): error C2065: “ecx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(51): error C2146: 语法错误: 缺少“;”(在标识符“call”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(51): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(52): error C2146: 语法错误: 缺少“;”(在标识符“dwCall1”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(52): error C2146: 语法错误: 缺少“;”(在标识符“lea”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(52): error C2065: “lea”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(52): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(52): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(53): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(53): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(54): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(53): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(54): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(54): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(54): error C2146: 语法错误: 缺少“;”(在标识符“ebx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(54): error C2065: “ebx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(55): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(55): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(56): error C2146: 语法错误: 缺少“;”(在标识符“ebx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(55): error C2065: “ebx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(56): error C2146: 语法错误: 缺少“;”(在标识符“call”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(56): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(57): error C2146: 语法错误: 缺少“;”(在标识符“dwCall2”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(57): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(57): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(57): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(57): error C2065: “ecx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(57): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(58): error C2146: 语法错误: 缺少“;”(在标识符“call”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(58): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(59): error C2146: 语法错误: 缺少“;”(在标识符“dwCall3”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(59): error C2146: 语法错误: 缺少“;”(在标识符“lea”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(59): error C2065: “lea”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(59): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(59): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(60): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(60): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(61): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(60): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(61): error C2146: 语法错误: 缺少“;”(在标识符“lea”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(61): error C2065: “lea”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(61): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(61): error C2065: “ecx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(62): error C2146: 语法错误: 缺少“;”(在标识符“call”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(62): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(63): error C2146: 语法错误: 缺少“;”(在标识符“dwCall4”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(63): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(63): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(63): error C2146: 语法错误: 缺少“;”(在标识符“dwWxidArr”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(63): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(64): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(69): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(71): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“int *”
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(76): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPVOID *”
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(80): error C2664: “int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)”: 无法将参数 2 从“wchar_t [256]”转换为“LPCSTR”
+  e:\git\wechatpc\wechatdll\wechatdll\room.cpp(80): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(114): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(115): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(119): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(120): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(129): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(130): error C2065: “pushad”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(131): error C2065: “lea”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(131): error C2146: 语法错误: 缺少“;”(在标识符“esi”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(131): error C2065: “esi”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(132): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(132): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(132): error C2065: “ecx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(132): error C2065: “esi”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(133): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(133): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(133): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(134): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(134): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(134): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(135): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(135): error C2146: 语法错误: 缺少“;”(在标识符“dwCallAddr1”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(136): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(136): error C2143: 语法错误: 缺少“;”(在“常数”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(137): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(137): error C2146: 语法错误: 缺少“;”(在标识符“dwParam”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(138): error C2065: “lea”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(138): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(138): error C2065: “ecx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(139): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(139): error C2146: 语法错误: 缺少“;”(在标识符“dwCallAddr2”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(140): error C2065: “sub”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(140): error C2146: 语法错误: 缺少“;”(在标识符“esp”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(140): error C2065: “esp”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(141): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(141): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(141): error C2065: “ecx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(142): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(142): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(142): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(142): error C2065: “esp”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(143): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(143): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(143): error C2065: “eax”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(144): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(144): error C2146: 语法错误: 缺少“;”(在标识符“dwCallAddr3”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(145): error C2065: “push”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(145): error C2146: 语法错误: 缺少“;”(在标识符“esi”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(145): error C2065: “esi”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(146): error C2065: “mov”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(146): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(146): error C2065: “ecx”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(147): error C2065: “call”: 未声明的标识符
+e:\git\wechatpc\wechatdll\wechatdll\room.cpp(147): fatal error C1003: 错误计数超过 100；正在停止编译
+  WechatDll.cpp
+  LoginInfo.cpp
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(28): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(29): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(31): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(31): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(38): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(42): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(45): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(47): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(47): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(51): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(52): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(54): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(54): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(59): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(59): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(62): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(65): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(66): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(68): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(68): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(73): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“void *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(85): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(88): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(91): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(94): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(95): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(97): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(97): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(101): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(116): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(117): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(120): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(120): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(122): error C2664: “BOOL SetDlgItemTextA(HWND,int,LPCSTR)”: 无法将参数 3 从“wchar_t *”转换为“LPCSTR”
+  e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(122): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(129): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(133): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(136): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(138): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(138): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(140): error C2664: “BOOL SetDlgItemTextA(HWND,int,LPCSTR)”: 无法将参数 3 从“wchar_t *”转换为“LPCSTR”
+  e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(140): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(144): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(145): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(147): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(147): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(150): error C2664: “BOOL SetDlgItemTextA(HWND,int,LPCSTR)”: 无法将参数 3 从“wchar_t *”转换为“LPCSTR”
+  e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(150): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(155): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(155): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(156): error C2664: “BOOL SetDlgItemTextA(HWND,int,LPCSTR)”: 无法将参数 3 从“wchar_t *”转换为“LPCSTR”
+  e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(156): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(160): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(161): error C2664: “BOOL SetDlgItemTextA(HWND,int,LPCSTR)”: 无法将参数 3 从“wchar_t *”转换为“LPCSTR”
+  e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(161): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(165): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(166): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(169): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(169): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(171): error C2664: “BOOL SetDlgItemTextA(HWND,int,LPCSTR)”: 无法将参数 3 从“wchar_t *”转换为“LPCSTR”
+  e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(171): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(175): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“void *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(185): error C2664: “BOOL SetDlgItemTextA(HWND,int,LPCSTR)”: 无法将参数 3 从“wchar_t [8]”转换为“LPCSTR”
+  e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(185): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(189): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(190): error C2664: “BOOL SetDlgItemTextA(HWND,int,LPCSTR)”: 无法将参数 3 从“wchar_t *”转换为“LPCSTR”
+  e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(190): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(194): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(195): error C2664: “BOOL SetDlgItemTextA(HWND,int,LPCSTR)”: 无法将参数 3 从“wchar_t *”转换为“LPCSTR”
+  e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(195): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(199): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(200): error C2664: “BOOL SetDlgItemTextA(HWND,int,LPCSTR)”: 无法将参数 3 从“wchar_t *”转换为“LPCSTR”
+  e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(200): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(204): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(205): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(207): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“DWORD *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(207): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(209): error C2664: “BOOL SetDlgItemTextA(HWND,int,LPCSTR)”: 无法将参数 3 从“wchar_t *”转换为“LPCSTR”
+  e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(209): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(213): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“CHAR *”
+e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(214): error C2664: “BOOL SetDlgItemTextA(HWND,int,LPCSTR)”: 无法将参数 3 从“wchar_t *”转换为“LPCSTR”
+  e:\git\wechatpc\wechatdll\wechatdll\logininfo.cpp(214): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+  正在生成代码...
