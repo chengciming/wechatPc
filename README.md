@@ -57,8 +57,9 @@
 ### 服务端启动
 ```shell
 E:\git\wechatPc>
-E:\git\wechatPc>
-E:\git\wechatPc>E:\git\wechatPc\PhpBin\php ./ServerPhp/index.php start
+E:\git\wechatPc>cd ./ServerPhp
+E:\git\ServerPhp>composer install  // 此操作是安装workman包(安装一次即可)，不会安装composer的同学到群里下载vendor目录放进去
+E:\git\ServerPhp>E:\git\wechatPc\PhpBin\php index.php start
 ----------------------- WORKERMAN -----------------------------
 Workerman version:3.5.31          PHP version:7.2.25
 ------------------------ WORKERS -------------------------------
