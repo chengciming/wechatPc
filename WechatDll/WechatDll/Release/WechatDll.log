@@ -1,21 +1,8 @@
-﻿  stdafx.cpp
-  Base64.cpp
-  Common.cpp
-  dllmain.cpp
-  Md5.cpp
-  Package.cpp
-  Send.cpp
-  Sha1.cpp
-  WebSocket.cpp
-  Friends.cpp
-  Login.cpp
-  Message.cpp
-  Room.cpp
-  WechatDll.cpp
-  LoginInfo.cpp
-  WechatMultiOpen.cpp
+﻿  dllmain.cpp
   正在生成代码
-  All 419 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  12 of 1692 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
 HPSocket_U.lib(safety_check.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(safety_check.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 HPSocket_U.lib(witness.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(witness.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样

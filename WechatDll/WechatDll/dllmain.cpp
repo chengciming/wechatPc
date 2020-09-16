@@ -24,11 +24,13 @@ BOOL APIENTRY DllMain( HMODULE hModule, DWORD  ul_reason_for_call, LPVOID lpRese
 		case DLL_PROCESS_ATTACH:
 		{
 			// 开新线程处理
+			/*
+			// 此处是调试界面，存在不完善情况
 			HANDLE lThread = CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)ShowDialog, hModule, NULL, 0);
 			if (lThread != 0) {
 				CloseHandle(lThread);
 			}
-
+			*/
 			// 开始监控微信
 			HANDLE mThread = CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)Monitor, hModule, NULL, 0);
 			if (mThread != 0) {
@@ -94,27 +96,12 @@ DWORD WINAPI LoginMonitor(HMODULE hModule)
 
 	return TRUE;
 }
-
-DWORD WINAPI SendHeartBeat(HMODULE hModule)
-{
-	while (TRUE) {
-		WsClientSendHeartBeat();
-		Sleep(5000);  // 每隔5秒心跳一次
-	}
-	return TRUE;
-}
 /*
 监控WebSocket
 */
 DWORD WINAPI WebSocketClientMonitor(HMODULE hModule)
 {
 	WsClientInit();  // 初始化
-
-	// 心跳线程
-	HANDLE bThread = CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)SendHeartBeat, hModule, NULL, 0);
-	if (bThread != 0) {
-		CloseHandle(bThread);
-	}
 
 	// 开一个线程获取登录信息 - 需要等待登录结果
 	HANDLE cThread = CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)LoginMonitor, hModule, NULL, 0);

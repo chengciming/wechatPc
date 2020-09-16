@@ -1,15 +1,8 @@
-﻿  Common.cpp
-  Package.cpp
-  SocketStruct.cpp
-  WebSocketClient.cpp
-  WebSocketListen.cpp
-  WechatMultiOpen.cpp
-  WechatRobot.cpp
-  WechatService.cpp
+﻿  WebSocketListen.cpp
   正在生成代码
-  109 of 1485 functions ( 7.3%) were compiled, the rest were copied from previous compilation.
-    13 functions were new in current compilation
-    25 functions had inline decision re-evaluated but remain unchanged
+  1 of 1491 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
 HPSocket_U.lib(safety_check.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(safety_check.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
 HPSocket_U.lib(witness.obj) : warning LNK4099: 未找到 PDB“jemalloc.pdb”(使用“HPSocket_U.lib(witness.obj)”或在“E:\svn\wechatPc\Bin\Release\jemalloc.pdb”中寻找)；正在链接对象，如同没有调试信息一样
