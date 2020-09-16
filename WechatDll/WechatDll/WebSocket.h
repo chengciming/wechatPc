@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 #include <iostream>
 #include <Windows.h>
 #include <string>
@@ -10,23 +10,25 @@
 
 using namespace std;
 
-// ³õÊ¼»¯
+// åˆå§‹åŒ–
 void WsClientInit();
-// ·¢ËÍÊı¾İ
+// å‘é€å¿ƒè·³
+void WsClientSendHeartBeat();
+// å‘é€æ•°æ®
 void WsClientSend(char *body);
-// ½ÓÊÕÊı¾İ
+// æ¥æ”¶æ•°æ®
 void WsClientRecvCallback(char *data);
-// ³ÖĞøÁ¬½Ó·şÎñ¶Ë
+// æŒç»­è¿æ¥æœåŠ¡ç«¯
 BOOL WsClientKeepConnect(int time);
-// ÖØĞÂÁ¬½Ó·şÎñ¶Ë
+// é‡æ–°è¿æ¥æœåŠ¡ç«¯
 void WsClientReConnect(int time);
-// Á¬½Ó·şÎñ¶Ë
+// è¿æ¥æœåŠ¡ç«¯
 BOOL WsClientConnect();
-// ¹Ø±Õ·şÎñ¶ËÁ¬½Ó
+// å…³é—­æœåŠ¡ç«¯è¿æ¥
 void WsClientClose();
-// ·¢ËÍÊı¾İ°üÈÃ·şÎñ¶Ë¹Ø±ÕÁ¬½Ó
+// å‘é€æ•°æ®åŒ…è®©æœåŠ¡ç«¯å…³é—­è¿æ¥
 void WsClientSafeClose();
-// ·¢ËÍÎÕÊÖ°ü
+// å‘é€æ¡æ‰‹åŒ…
 void WsClientHandShake();
 
 
@@ -34,11 +36,11 @@ void WsClientHandShake();
 class WebSocketClient : public CHttpClientListener
 {
 private:
-	// ÊÇ·ñÕıÔÚ½ÓÊÕÊı¾İ - ±»·Ö°üĞèÒª¼ÇÂ¼
+	// æ˜¯å¦æ­£åœ¨æ¥æ”¶æ•°æ® - è¢«åˆ†åŒ…éœ€è¦è®°å½•
 	bool RecvState = FALSE;
-	// µ±Ç°½ÓÊÕµ½µÄÊı¾İ - ±»·Ö°üĞèÒª¼ÇÂ¼
+	// å½“å‰æ¥æ”¶åˆ°çš„æ•°æ® - è¢«åˆ†åŒ…éœ€è¦è®°å½•
 	char *RecvData = { 0 };
-	// µ±Ç°µÄ°ü³¤¶È - ±»·Ö°üĞèÒª¼ÇÂ¼
+	// å½“å‰çš„åŒ…é•¿åº¦ - è¢«åˆ†åŒ…éœ€è¦è®°å½•
 	long long int RecvDataLength = 0;
 
 	virtual EnHandleResult OnClose(ITcpClient* pSender, CONNID dwConnID, EnSocketOperation enOperation, int iErrorCode);

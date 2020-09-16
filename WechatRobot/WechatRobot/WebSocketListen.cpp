@@ -1,4 +1,4 @@
-#include "stdafx.h"
+ï»¿#include "stdafx.h"
 #include "Config.h"
 #include "Common.h"
 #include "Sha1.h"
@@ -23,39 +23,39 @@
 IHttpServer* pServer;
 WebSocketServer *cServer;
 
-// ·¢ËÍÊı¾İ
+// å‘é€æ•°æ®
 void WsServerSend(CONNID dwConnID, char *body)
 {
-	// ×ªÒå
+	// è½¬ä¹‰
 	size_t bodyLength = strlen(body);
-	// ³õÊ¼»¯ÏûÏ¢
+	// åˆå§‹åŒ–æ¶ˆæ¯
 	CBufferPtr* pBuffer = new CBufferPtr(bodyLength);
 	pBuffer->Copy((BYTE*)body, bodyLength);
-	// »ñÈ¡±êÊ¶
+	// è·å–æ ‡è¯†
 	BYTE iReserved, iOperationCode;
 	pServer->GetWSMessageState(dwConnID, nullptr, &iReserved, &iOperationCode, nullptr, nullptr, nullptr);
-	// ·¢ËÍÏûÏ¢
+	// å‘é€æ¶ˆæ¯
 	pServer->SendWSMessage(dwConnID, TRUE, iReserved, iOperationCode, pBuffer->Ptr(), (int)pBuffer->Size());
-	// ÊÍ·ÅÏûÏ¢×ÊÔ´
+	// é‡Šæ”¾æ¶ˆæ¯èµ„æº
 	pBuffer->Free();
 }
-// ½ÓÊÕÊı¾İ
+// æ¥æ”¶æ•°æ®
 void WsServerRecvCallback(CONNID dwConnID, char *data)
 {
-	// ³õÊ¼»¯Êı¾İ°ü
+	// åˆå§‹åŒ–æ•°æ®åŒ…
 	Package *package = new Package();
 	package->SetConText(data);
-	// ¼ì²éÊı¾İ°ü±ØÒª²ÎÊı
-	/* ÕâÀï²»×öÅĞ¶Ï£¬ÒòÎªdll¶ËÃ»ÓĞappid */
+	// æ£€æŸ¥æ•°æ®åŒ…å¿…è¦å‚æ•°
+	/* è¿™é‡Œä¸åšåˆ¤æ–­ï¼Œå› ä¸ºdllç«¯æ²¡æœ‰appid */
 	/*
 	if (package->Check() == FALSE) {
-		MessageBox(NULL, L"ÊÕµ½´íÎóµÄÊı¾İ°ü£¡", L"ÎÂÜ°ÌáÊ¾£º", NULL);
+		MessageBox(NULL, L"æ”¶åˆ°é”™è¯¯çš„æ•°æ®åŒ…ï¼", L"æ¸©é¦¨æç¤ºï¼š", NULL);
 		return;
 	}
 	*/
 	int opCode = package->GetOpCode();
 
-	// Î¢ĞÅÍË³öÁË£¬¹Ø±Õ½ø³Ì
+	// å¾®ä¿¡é€€å‡ºäº†ï¼Œå…³é—­è¿›ç¨‹
 	if (opCode == OpCode::OPCODE_WECHAT_QUIT) {
 		Value *pBody = package->GetBody();
 		Value &body = *pBody;
@@ -65,19 +65,19 @@ void WsServerRecvCallback(CONNID dwConnID, char *data)
 		Value& processId = body["processId"];
 		Value& loginStatus = body["loginStatus"];
 
-		// Î´ÍË³ö²»²Ù×÷
+		// æœªé€€å‡ºä¸æ“ä½œ
 		if (loginStatus.GetInt() != 0) {
 			return;
 		}
 
-		// ¹Ø±Õ½ø³Ì
+		// å…³é—­è¿›ç¨‹
 		CloseProcess(processId.GetInt());
-		// ĞŞ¸Ä·¢»Ø·şÎñÆ÷¶ËÍ¨ÖªÍË³öµÇÂ¼
+		// ä¿®æ”¹å‘å›æœåŠ¡å™¨ç«¯é€šçŸ¥é€€å‡ºç™»å½•
 		body.RemoveMember("processId");
 		package->SetBody(body);
 	}
 
-	// ¸³ÖµÎ¢ĞÅ¿Í»§¶ËID
+	// èµ‹å€¼å¾®ä¿¡å®¢æˆ·ç«¯ID
 	char wechatId[33] = { 0 };
 	GetSocketWechatId(dwConnID, wechatId);
 
@@ -86,33 +86,33 @@ void WsServerRecvCallback(CONNID dwConnID, char *data)
 	}
 	rapidjson::StringBuffer context = package->GetConText();
 	const char *json = context.GetString();
-	// ·¢ËÍ¸ø·şÎñÆ÷¶Ë
+	// å‘é€ç»™æœåŠ¡å™¨ç«¯
 	WsClientSend((char *)json);
 }
-// ¼àÌı¶Ë¿Ú
+// ç›‘å¬ç«¯å£
 BOOL WsServerListen()
 {
 	CString strBindAddr = WEBSOCKET_LISTEN_IP_ADDRESS;
 	const USHORT port = atoi(WEBSOCKET_LISTEN_IP_PORT);
-	// Æô¶¯¼àÌı
+	// å¯åŠ¨ç›‘å¬
 	if (!pServer->Start(strBindAddr, port)) {
-		MessageBox(NULL, L"Æô¶¯Websocket¼àÌıÊ§°Ü£¡", L"ÎÂÜ°ÌáÊ¾£º", NULL);
+		MessageBox(NULL, L"å¯åŠ¨Websocketç›‘å¬å¤±è´¥ï¼", L"æ¸©é¦¨æç¤ºï¼š", NULL);
 		return FALSE;
 	}
 	return TRUE;
 }
-// ³õÊ¼»¯
+// åˆå§‹åŒ–
 void WsServerInit()
 {
-	// ´´½¨socket´¢´æÁĞ±í
+	// åˆ›å»ºsocketå‚¨å­˜åˆ—è¡¨
 	CreateSocketList();
-	// ³õÊ¼»¯websocket
+	// åˆå§‹åŒ–websocket
 	cServer = new WebSocketServer;
 	pServer = HttpServer_Creator::Create(cServer);
-	// ¿ªÊ¼¼àÌı¶Ë¿Ú
+	// å¼€å§‹ç›‘å¬ç«¯å£
 	WsServerListen();
 }
-// ¹Ø±Õ¼àÌı
+// å…³é—­ç›‘å¬
 void WsServerClose()
 {
 	pServer->Stop();
@@ -122,7 +122,7 @@ void WsServerClose()
 
 EnHandleResult WebSocketServer::OnClose(ITcpServer* pSender, CONNID dwConnID, EnSocketOperation enOperation, int iErrorCode)
 {
-	// É¾³ıSocket´¢´æµÄĞÅÏ¢
+	// åˆ é™¤Socketå‚¨å­˜çš„ä¿¡æ¯
 	DeleteSocket(dwConnID);
 
 	CBufferPtr* pBuffer = nullptr;
@@ -141,24 +141,24 @@ EnHttpParseResult WebSocketServer::OnUpgrade(IHttpServer* pSender, CONNID dwConn
 		pSender->SendResponse(dwConnID, HSC_OK, "Connection Established");
 	}
 	else if (enUpgradeType == HUT_WEB_SOCKET) {
-		// »ñÈ¡½ø³ÌID£¬²¢ÇÒ´¢´æsocketÁ´½Ó
+		// è·å–è¿›ç¨‹IDï¼Œå¹¶ä¸”å‚¨å­˜socketé“¾æ¥
 		LPCSTR processIdPtr = nullptr;
 		if (!pSender->GetHeader(dwConnID, "Process-Id", &processIdPtr)) {
 			return HPR_ERROR;
 		}
 		CStringA processIdStr(processIdPtr);
 		int processId = atoi(processIdStr.GetString());
-		// »ñÈ¡Î¢ĞÅID£¬¶ÌÏßºóÖØĞÂÁ´½ÓµÄ
+		// è·å–å¾®ä¿¡IDï¼ŒçŸ­çº¿åé‡æ–°é“¾æ¥çš„
 		LPCSTR wechatIdPtr = nullptr;
 		if (pSender->GetHeader(dwConnID, "Wechat-Id", &wechatIdPtr)) {
 			CStringA wechatIdStr(wechatIdPtr);
 			AddWechatProcess(processId, (char *)wechatIdStr.GetString());
 		}
 
-		// Ìí¼Ó½ø³ÌÁ¬½Ó
+		// æ·»åŠ è¿›ç¨‹è¿æ¥
 		AddSocket(dwConnID, processId);
 
-		// ¹¹Ôì»Ø¸´ĞÅÏ¢
+		// æ„é€ å›å¤ä¿¡æ¯
 		int iHeaderCount = 2;
 		THeader header[] = { {"Connection", "Upgrade"},
 							{"Upgrade", "WebSocket"},
@@ -179,7 +179,7 @@ EnHttpParseResult WebSocketServer::OnUpgrade(IHttpServer* pSender, CONNID dwConn
 		CStringA strKey(lpszAccept);
 		strKey.Append("258EAFA5-E914-47DA-95CA-C5AB0DC85B11");
 
-		// Éú³Ékey
+		// ç”Ÿæˆkey
 		int len = SHA1_String((unsigned char*)strKey.GetString(), strKey.GetLength(), OutSHA1Buf);
 		base64_encode(OutSHA1Buf, 20, key);
 		strAccept = key;
@@ -203,7 +203,7 @@ EnHttpParseResult WebSocketServer::OnUpgrade(IHttpServer* pSender, CONNID dwConn
 			}
 		}
 		
-		// ¼ÓÉÏÎ¢ĞÅID
+		// åŠ ä¸Šå¾®ä¿¡ID
 		char wechatId[33] = { 0 };
 		GetSocketWechatIdByProcessId(processId, wechatId);
 		header[4].name = "Wechat-Id";
@@ -221,7 +221,7 @@ EnHttpParseResult WebSocketServer::OnUpgrade(IHttpServer* pSender, CONNID dwConn
 
 EnHandleResult WebSocketServer::OnWSMessageBody(IHttpServer* pSender, CONNID dwConnID, const BYTE* pData, int iLength)
 {
-	// ´¢´æÊı¾İ
+	// å‚¨å­˜æ•°æ®
 	AddSocketRecvData(dwConnID, pData, iLength);
 
 	return HR_OK;
@@ -232,23 +232,28 @@ EnHandleResult WebSocketServer::OnWSMessageComplete(IHttpServer* pSender, CONNID
 	BYTE iOperationCode;
 	pSender->GetWSMessageState(dwConnID, nullptr, nullptr, &iOperationCode, nullptr, nullptr, nullptr);
 
-	// ¹Ø±ÕÁ¬½Ó
+	// å…³é—­è¿æ¥
 	if (iOperationCode == 0x8) {
 		pSender->Disconnect(dwConnID);
 		return HR_OK;
 	}
+	
+	// Ping
+	if (iOperationCode == 0x9) {
+		return HR_OK;
+	}
 
-	// ÕûºÏÊı¾İ
+	// æ•´åˆæ•°æ®
 	long long int RecvDataLength = GetSocketRecvDataLength(dwConnID);
 	char *data;
 	if ((data = (char *)malloc((size_t)(RecvDataLength + 1) * sizeof(char))) == NULL) {
 		return HR_OK;
 	}
 	GetSocketRecvData(dwConnID, data);
-	// ´¦Àí½ÓÊÕµ½µÄÊı¾İ
+	// å¤„ç†æ¥æ”¶åˆ°çš„æ•°æ®
 	WsServerRecvCallback(dwConnID, data);
 	free(data);
-	// ÊÍ·Å·Ö°ü´¢´æµÄ×ÊÔ´
+	// é‡Šæ”¾åˆ†åŒ…å‚¨å­˜çš„èµ„æº
 	FreeSocketRecvData(dwConnID);
 
 	return HR_OK;
