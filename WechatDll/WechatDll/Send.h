@@ -21,19 +21,19 @@ typedef struct FriendList
 	CHAR remark[0x128] = { 0 };
 	CHAR bigHeadImgUrl[0x512] = { 0 };
 	CHAR smallHeadImgUrl[0x512] = { 0 };
-	CHAR roomWxidList[0x3A98] = { 0 };  // 30 x 500 = 30长度 x 500个群成员ID
+	CHAR roomWxidList[0xEA60] = { 0 };  // 30 x 2000 = 30长度 x 2000个群成员ID
 	int roomOwner = 0;
-	CHAR roomAnnouncement[0x512] = { 0 };
+	CHAR roomAnnouncement[0x5120] = { 0 };
 	CHAR roomAnnouncementEditor[0x100] = { 0 };
 	CHAR roomAnnouncementPublishTime[0x100] = { 0 };
 	int roomStatus = 0;
 	int bizType = 0;
 	int bizAcceptType = 0;
-	CHAR bizBrandList[0x3A98] = { 0 };
+	CHAR bizBrandList[0xEA60] = { 0 };
 	int bizBrandFlag = 0;
 	CHAR bizBrandIconURL[0x512] = { 0 };
-	CHAR bizExtInfo[0x3A98] = { 0 };
-	CHAR extraBuf[0x3A98] = { 0 };
+	CHAR bizExtInfo[0xEA60] = { 0 };
+	CHAR extraBuf[0xEA60] = { 0 };
 	int delFlag = 0;
 	int verifyFlag = 0;
 	int roomNotify = 0;
