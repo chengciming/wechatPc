@@ -16,7 +16,7 @@
 #define WX_USER_CITY 0x161C990  // 城市
 #define WX_USER_SIGN 0x161C9A8  // 个性签名
 #define WX_USER_HEAD_URL 0x161CB54  // 头像  内存里面的地址，连续两个，取第一个
-
+#define WX_VERSION 0x161DA78  //版本
 /* 微信基础偏移值 */
 #define WX_QRCODE_URL_CODE 0x1635C58  //二维码URL值
 #define GOTO_QRCODE_1 0x210280  //跳转到二维码

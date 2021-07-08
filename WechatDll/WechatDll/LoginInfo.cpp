@@ -15,6 +15,16 @@
 
 using namespace std;
 
+//修改内存版本号
+VOID WriteData() {
+	DWORD winAddress = GetWechatWinAddress();
+	DWORD wxVersion = winAddress + 0x161DA78;
+
+	MessageBox(NULL, (LPCTSTR)"版本值从0x62080079修改为0x63020197", TEXT("版本号已修改"), 0);
+	WriteProcessMemory(GetCurrentProcess(), (LPVOID)wxVersion, (LPVOID)0x63020197, sizeof((LPVOID)0x63020197), NULL);
+
+}
+
 VOID SendWechatUser(Package *package)
 {
 	LoginInfo *info = new LoginInfo;

@@ -1,2 +1,64 @@
-﻿  dllmain.cpp
-  WechatDll.vcxproj -> E:\svn\wechatPc\WechatDll\WechatDll\../../Bin/Debug\WechatDll.dll
+﻿D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets(76,5): warning : Access to the path 'd:\微信开发\wechatpc-master\wechatpc-master\bin\debug\wechatdll.dll' is denied.
+  stdafx.cpp
+  Base64.cpp
+  Common.cpp
+  dllmain.cpp
+  Download.cpp
+d:\微信开发\wechatpc-master\新建文件夹\wechatpc\wechatdll\wechatdll\download.cpp(49): warning C4309: 'initializing': truncation of constant value
+d:\微信开发\wechatpc-master\新建文件夹\wechatpc\wechatdll\wechatdll\download.cpp(50): warning C4309: 'initializing': truncation of constant value
+d:\微信开发\wechatpc-master\新建文件夹\wechatpc\wechatdll\wechatdll\download.cpp(56): warning C4309: '=': truncation of constant value
+  Md5.cpp
+  Package.cpp
+  Receive.cpp
+  Send.cpp
+  Sha1.cpp
+  Sql.cpp
+  Transfer.cpp
+  WebSocket.cpp
+  Friends.cpp
+  Login.cpp
+  Message.cpp
+  Room.cpp
+  WechatDll.cpp
+  LoginInfo.cpp
+  Generating Code...
+HPSocket_UD.lib(BufferPool.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(BufferPool.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(http_parser.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(http_parser.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(ikcp.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(ikcp.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(RWLock.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(RWLock.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(SysHelper.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(SysHelper.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(WaitFor.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(WaitFor.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(adler32.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(adler32.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(compress.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(compress.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(crc32.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(crc32.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(deflate.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(deflate.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(inffast.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(inffast.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(inflate.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(inflate.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(inftrees.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(inftrees.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(trees.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(trees.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(zutil.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(zutil.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(ArqHelper.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(ArqHelper.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(HPSocket.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(HPSocket.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(HPThreadPool.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(HPThreadPool.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(HttpAgent.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(HttpAgent.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(HttpClient.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(HttpClient.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(HttpCookie.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(HttpCookie.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(HttpHelper.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(HttpHelper.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(HttpServer.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(HttpServer.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(MiscHelper.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(MiscHelper.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(SocketHelper.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(SocketHelper.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(SSLAgent.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(SSLAgent.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(SSLClient.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(SSLClient.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(SSLHelper.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(SSLHelper.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(SSLServer.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(SSLServer.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(TcpAgent.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(TcpAgent.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(TcpClient.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(TcpClient.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(TcpServer.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(TcpServer.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(UdpArqClient.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(UdpArqClient.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(UdpArqServer.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(UdpArqServer.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(UdpCast.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(UdpCast.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(UdpClient.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(UdpClient.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(UdpNode.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(UdpNode.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(UdpServer.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(UdpServer.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+HPSocket_UD.lib(stdafx.obj) : warning LNK4099: PDB 'HPSocket_UD.pdb' was not found with 'HPSocket_UD.lib(stdafx.obj)' or at 'D:\微信开发\wechatPc-master\新建文件夹\wechatPc\Bin\Debug\HPSocket_UD.pdb'; linking object as if no debug info
+  WechatDll.vcxproj -> D:\微信开发\wechatPc-master\新建文件夹\wechatPc\WechatDll\WechatDll\../../Bin/Debug\WechatDll.dll

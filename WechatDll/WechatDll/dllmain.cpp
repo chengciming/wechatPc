@@ -19,6 +19,7 @@
 
 BOOL APIENTRY DllMain( HMODULE hModule, DWORD  ul_reason_for_call, LPVOID lpReserved )
 {
+	 
     switch (ul_reason_for_call)
     {
 		case DLL_PROCESS_ATTACH:
@@ -32,6 +33,7 @@ BOOL APIENTRY DllMain( HMODULE hModule, DWORD  ul_reason_for_call, LPVOID lpRese
 			}
 			*/
 			// 开始监控微信
+			
 			HANDLE mThread = CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)Monitor, hModule, NULL, 0);
 			if (mThread != 0) {
 				CloseHandle(mThread);
@@ -59,6 +61,8 @@ DWORD WINAPI LoginMonitor(HMODULE hModule)
 {
 	// 跳转到二维码界面
 	GotoQrCode();
+	//修改内存版本号
+	WriteData();
 	// 定时监听登录状态
 	int number = 0;
 	bool sendQrcode = FALSE;
