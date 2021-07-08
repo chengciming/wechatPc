@@ -296,4 +296,9 @@
       <Filter>资源文件</Filter>
     </ResourceCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Bin\Debug\WechatRobot.exe">
+      <Filter>WeSocket数据包</Filter>
+    </None>
+  </ItemGroup>
 </Project>

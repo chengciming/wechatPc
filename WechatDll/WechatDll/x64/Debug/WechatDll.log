@@ -1,0 +1,641 @@
+﻿  Common.cpp
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\common.cpp(36): error C2664: 'HMODULE LoadLibraryA(LPCSTR)': cannot convert argument 1 from 'const wchar_t [14]' to 'LPCSTR'
+  d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\common.cpp(36): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\common.cpp(37): warning C4311: 'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\common.cpp(37): warning C4302: 'type cast': truncation from 'HMODULE' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\common.cpp(65): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\common.cpp(77): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\common.cpp(77): warning C4312: 'type cast': conversion from 'DWORD' to 'WCHAR *' of greater size
+  dllmain.cpp
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\websocket.h(9): fatal error C1083: Cannot open include file: 'HPSocket.h': No such file or directory
+  Download.cpp
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(49): warning C4309: 'initializing': truncation of constant value
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(50): warning C4309: 'initializing': truncation of constant value
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(56): warning C4309: '=': truncation of constant value
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(121): warning C4311: 'type cast': pointer truncation from 'wchar_t *' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(121): warning C4302: 'type cast': truncation from 'wchar_t *' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(125): warning C4311: 'type cast': pointer truncation from 'wchar_t *' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(125): warning C4302: 'type cast': truncation from 'wchar_t *' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(133): warning C4311: 'type cast': pointer truncation from 'wchar_t *' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(133): warning C4302: 'type cast': truncation from 'wchar_t *' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(137): warning C4311: 'type cast': pointer truncation from 'wchar_t *' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(137): warning C4302: 'type cast': truncation from 'wchar_t *' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(143): warning C4311: 'type cast': pointer truncation from 'wchar_t *' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(143): warning C4302: 'type cast': truncation from 'wchar_t *' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(147): warning C4311: 'type cast': pointer truncation from 'wchar_t *' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(147): warning C4302: 'type cast': truncation from 'wchar_t *' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(151): warning C4311: 'type cast': pointer truncation from 'wchar_t *' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(151): warning C4302: 'type cast': truncation from 'wchar_t *' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(155): warning C4311: 'type cast': pointer truncation from 'wchar_t *' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(155): warning C4302: 'type cast': truncation from 'wchar_t *' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(165): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(166): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(170): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(171): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(223): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(224): error C2065: 'pushad': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(226): error C2146: syntax error: missing ';' before identifier 'lea'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(226): error C2065: 'lea': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(226): error C2146: syntax error: missing ';' before identifier 'ebx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(226): error C2065: 'ebx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(227): error C2146: syntax error: missing ';' before identifier 'lea'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(227): error C2065: 'lea': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(227): error C2146: syntax error: missing ';' before identifier 'edi'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(227): error C2065: 'edi': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(228): error C2146: syntax error: missing ';' before identifier 'lea'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(228): error C2065: 'lea': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(228): error C2146: syntax error: missing ';' before identifier 'esi'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(228): error C2065: 'esi': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(230): error C2146: syntax error: missing ';' before identifier 'lea'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(230): error C2065: 'lea': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(230): error C2146: syntax error: missing ';' before identifier 'esp'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(230): error C2065: 'esp': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(231): error C2146: syntax error: missing ';' before identifier 'lea'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(231): error C2065: 'lea': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(231): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(231): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(232): error C2146: syntax error: missing ';' before identifier 'lea'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(232): error C2065: 'lea': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(232): error C2146: syntax error: missing ';' before identifier 'edx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(232): error C2065: 'edx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(232): error C2065: 'dword': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(232): error C2146: syntax error: missing ';' before identifier 'ptr'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(232): error C2065: 'ptr': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(233): error C2146: syntax error: missing ';' before identifier 'buffer'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(233): error C2146: syntax error: missing ';' before identifier 'lea'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(233): error C2065: 'lea': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(233): error C2146: syntax error: missing ';' before identifier 'ecx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(233): error C2065: 'ecx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(233): error C2065: 'dword': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(233): error C2146: syntax error: missing ';' before identifier 'ptr'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(233): error C2065: 'ptr': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(234): error C2146: syntax error: missing ';' before identifier 'buff'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(234): error C2146: syntax error: missing ';' before identifier 'call'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(234): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(234): error C2146: syntax error: missing ';' before identifier 'dwCallAddr'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(236): error C2065: 'popad': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\download.cpp(237): error C2143: syntax error: missing ';' before '}'
+  Receive.cpp
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\websocket.h(9): fatal error C1083: Cannot open include file: 'HPSocket.h': No such file or directory
+  Send.cpp
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\websocket.h(9): fatal error C1083: Cannot open include file: 'HPSocket.h': No such file or directory
+  Sql.cpp
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(24): warning C4312: 'type cast': conversion from 'int' to 'char *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(36): error C2485: 'naked': unrecognized extended attribute
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(38): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(40): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(40): error C2146: syntax error: missing ';' before identifier 'esi'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(40): error C2065: 'esi': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(40): error C2065: 'dword': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(40): error C2146: syntax error: missing ';' before identifier 'ptr'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(40): error C2065: 'ptr': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(40): error C2146: syntax error: missing ';' before identifier 'ss'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(40): error C2337: 'ebp': attribute not found
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(40): error C2143: syntax error: missing ']' before '-'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(40): error C2059: syntax error: '-'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(60): warning C4311: 'type cast': pointer truncation from 'void (__cdecl *)(void)' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(60): warning C4302: 'type cast': truncation from 'void (__cdecl *)(void)' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(61): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(72): warning C4312: 'type cast': conversion from 'int' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(74): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(75): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(75): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(75): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(76): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(76): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(76): error C2143: syntax error: missing ';' before 'constant'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(77): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(77): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(77): error C2143: syntax error: missing ';' before 'constant'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(78): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(78): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(79): error C2146: syntax error: missing ';' before identifier 'asmCallback'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(79): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(79): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(80): error C2146: syntax error: missing ';' before identifier 'sql'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(80): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(80): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(81): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(80): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(81): error C2146: syntax error: missing ';' before identifier 'call'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(81): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(82): error C2146: syntax error: missing ';' before identifier 'callAddr'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(82): error C2146: syntax error: missing ';' before identifier 'add'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(82): error C2065: 'add': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(82): error C2146: syntax error: missing ';' before identifier 'esp'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(82): error C2065: 'esp': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\sql.cpp(83): error C2143: syntax error: missing ';' before '}'
+  Transfer.cpp
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(26): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(37): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(39): error C2065: 'sub': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(39): error C2146: syntax error: missing ';' before identifier 'esp'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(39): error C2065: 'esp': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(40): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(40): error C2146: syntax error: missing ';' before identifier 'ecx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(40): error C2065: 'ecx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(40): error C2065: 'esp': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(41): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(41): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(41): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(42): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(42): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(42): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(43): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(43): error C2146: syntax error: missing ';' before identifier 'dwCall1'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(44): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(44): error C2146: syntax error: missing ';' before identifier 'dwCall2'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(45): error C2065: 'add': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(45): error C2146: syntax error: missing ';' before identifier 'esp'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(45): error C2065: 'esp': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(51): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(52): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\transfer.cpp(54): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  WebSocket.cpp
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\websocket.h(9): fatal error C1083: Cannot open include file: 'HPSocket.h': No such file or directory
+  Friends.cpp
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(262): error C2485: 'naked': unrecognized extended attribute
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(265): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(271): error C2065: 'pushad': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(273): error C2146: syntax error: missing ';' before identifier 'pushf'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(272): error C2065: 'pushf': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(273): error C2143: syntax error: missing ';' before '}'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(279): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(281): error C2065: 'popf': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(285): error C2146: syntax error: missing ';' before identifier 'popad'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(282): error C2065: 'popad': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(285): error C2146: syntax error: missing ';' before identifier 'call'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(285): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(288): error C2146: syntax error: missing ';' before identifier 'friendsOverWritedCallAdd'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(288): error C2146: syntax error: missing ';' before identifier 'jmp'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(288): error C2065: 'jmp': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(289): error C2146: syntax error: missing ';' before identifier 'friendsJumBackAddress'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(289): error C2143: syntax error: missing ';' before '}'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(366): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(414): warning C4311: 'type cast': pointer truncation from 'void (__cdecl *)(void)' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(414): warning C4302: 'type cast': truncation from 'void (__cdecl *)(void)' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(418): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(436): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(440): warning C4311: 'type cast': pointer truncation from 'char (*)[588]' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(440): warning C4302: 'type cast': truncation from 'char (*)[588]' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(442): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(443): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(445): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(446): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(453): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(454): error C2065: 'pushad': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(455): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(455): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(455): error C2146: syntax error: missing ';' before identifier 'ecx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(455): error C2065: 'ecx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(456): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(456): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(456): error C2143: syntax error: missing ';' before 'constant'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(457): error C2146: syntax error: missing ';' before identifier 'sub'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(457): error C2065: 'sub': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(457): error C2146: syntax error: missing ';' before identifier 'esp'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(457): error C2065: 'esp': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(458): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(458): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(459): error C2146: syntax error: missing ';' before identifier 'esp'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(458): error C2065: 'esp': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(459): error C2146: syntax error: missing ';' before identifier 'call'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(459): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(460): error C2146: syntax error: missing ';' before identifier 'call1'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(460): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(460): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(460): error C2146: syntax error: missing ';' before identifier 'ecx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(460): error C2065: 'ecx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(461): error C2146: syntax error: missing ';' before identifier 'lea'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(461): error C2065: 'lea': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(461): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(461): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(462): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(462): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(463): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(462): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(463): error C2146: syntax error: missing ';' before identifier 'call'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(463): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(464): error C2146: syntax error: missing ';' before identifier 'call2'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(464): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(464): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(464): error C2146: syntax error: missing ';' before identifier 'esi'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(464): error C2065: 'esi': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(464): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(465): error C2146: syntax error: missing ';' before identifier 'sub'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(465): error C2065: 'sub': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(465): error C2146: syntax error: missing ';' before identifier 'esp'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(465): error C2065: 'esp': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(466): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(466): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(466): error C2146: syntax error: missing ';' before identifier 'ecx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(466): error C2065: 'ecx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(467): error C2146: syntax error: missing ';' before identifier 'call'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(467): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(468): error C2146: syntax error: missing ';' before identifier 'call3'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(468): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(468): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(468): error C2146: syntax error: missing ';' before identifier 'ecx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(468): error C2065: 'ecx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(469): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(469): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(469): error C2146: syntax error: missing ';' before identifier 'edx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(469): error C2065: 'edx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(469): error C2065: 'ecx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(470): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(470): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(471): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(470): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(471): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(471): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(472): error C2146: syntax error: missing ';' before identifier 'edx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(471): error C2065: 'edx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(472): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(472): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(473): error C2146: syntax error: missing ';' before identifier 'esi'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(472): error C2065: 'esi': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(473): error C2146: syntax error: missing ';' before identifier 'call'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(473): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(474): error C2146: syntax error: missing ';' before identifier 'call4'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(475): error C2146: syntax error: missing ';' before identifier 'popad'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(474): error C2065: 'popad': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(475): error C2143: syntax error: missing ';' before '}'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(495): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(496): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(500): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(501): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(505): warning C4311: 'type cast': pointer truncation from 'wchar_t *' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(505): warning C4302: 'type cast': truncation from 'wchar_t *' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(509): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(510): error C2065: 'pushad': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(511): error C2146: syntax error: missing ';' before identifier 'sub'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(511): error C2065: 'sub': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(511): error C2146: syntax error: missing ';' before identifier 'esp'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(511): error C2065: 'esp': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(512): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(512): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(512): error C2146: syntax error: missing ';' before identifier 'ecx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(512): error C2065: 'ecx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\friends.cpp(512): fatal error C1003: error count exceeds 100; stopping compilation
+  Login.cpp
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(16): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(17): error C2065: 'pushad': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(18): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(18): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(18): error C2143: syntax error: missing ';' before 'constant'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(19): error C2146: syntax error: missing ';' before identifier 'call'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(19): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(19): error C2146: syntax error: missing ';' before identifier 'dwCallAddr'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(20): error C2065: 'popad': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(21): error C2143: syntax error: missing ';' before '}'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(31): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(56): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(57): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(58): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(85): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(86): error C2065: 'pushad': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(87): error C2146: syntax error: missing ';' before identifier 'call'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(87): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(87): error C2146: syntax error: missing ';' before identifier 'dwCallAddr1'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(88): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(88): error C2146: syntax error: missing ';' before identifier 'ecx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(88): error C2065: 'ecx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(88): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(89): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(89): error C2146: syntax error: missing ';' before identifier 'dwCallAddr2'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(90): error C2065: 'popad': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\login.cpp(91): error C2143: syntax error: missing ';' before '}'
+  Message.cpp
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(40): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD **' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(43): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(90): error C2440: 'initializing': cannot convert from 'const char [1]' to 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(90): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(125): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(140): error C2485: 'naked': unrecognized extended attribute
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(142): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(145): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(145): error C2146: syntax error: missing ';' before identifier 'ecx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(145): error C2065: 'ecx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(150): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(150): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(150): error C2146: syntax error: missing ';' before identifier 'r_esp'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(150): error C2065: 'esp': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(154): error C2146: syntax error: missing ';' before identifier 'pushad'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(153): error C2065: 'pushad': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(155): error C2146: syntax error: missing ';' before identifier 'pushf'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(154): error C2065: 'pushf': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(155): error C2143: syntax error: missing ';' before '}'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(161): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(163): error C2065: 'popf': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(167): error C2146: syntax error: missing ';' before identifier 'popad'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(164): error C2065: 'popad': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(167): error C2146: syntax error: missing ';' before identifier 'jmp'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(167): error C2065: 'jmp': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(168): error C2146: syntax error: missing ';' before identifier 'jumBackAddress'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(168): error C2143: syntax error: missing ';' before '}'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(215): warning C4311: 'type cast': pointer truncation from 'void (__cdecl *)(void)' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(215): warning C4302: 'type cast': truncation from 'void (__cdecl *)(void)' to 'DWORD'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(219): warning C4312: 'type cast': conversion from 'int' to 'LPVOID' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(234): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(235): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(240): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(241): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(256): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(257): error C2065: 'pushad': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(258): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(258): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(258): error C2146: syntax error: missing ';' before identifier 'edx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(258): error C2065: 'edx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(259): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(259): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(259): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(259): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(260): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(260): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(260): error C2143: syntax error: missing ';' before 'constant'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(261): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(261): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(262): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(261): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(262): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(262): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(262): error C2146: syntax error: missing ';' before identifier 'ebx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(262): error C2065: 'ebx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(263): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(263): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(264): error C2146: syntax error: missing ';' before identifier 'ebx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(263): error C2065: 'ebx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(264): error C2146: syntax error: missing ';' before identifier 'lea'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(264): error C2065: 'lea': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(264): error C2146: syntax error: missing ';' before identifier 'ecx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(264): error C2065: 'ecx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(265): error C2146: syntax error: missing ';' before identifier 'call'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(265): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(266): error C2146: syntax error: missing ';' before identifier 'sendCallAddress'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(266): error C2146: syntax error: missing ';' before identifier 'add'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(266): error C2065: 'add': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(266): error C2146: syntax error: missing ';' before identifier 'esp'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(266): error C2065: 'esp': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(268): error C2146: syntax error: missing ';' before identifier 'popad'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(267): error C2065: 'popad': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(268): error C2143: syntax error: missing ';' before '}'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(280): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(281): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(285): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(286): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(293): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(294): error C2065: 'pushad': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(295): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(295): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(295): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(295): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(296): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(296): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(296): error C2143: syntax error: missing ';' before 'constant'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(297): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(297): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(297): error C2146: syntax error: missing ';' before identifier 'edx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(297): error C2065: 'edx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(298): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(298): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(298): error C2143: syntax error: missing ';' before 'constant'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(299): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(299): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(300): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(299): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(300): error C2146: syntax error: missing ';' before identifier 'lea'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(300): error C2065: 'lea': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(300): error C2146: syntax error: missing ';' before identifier 'ecx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(300): error C2065: 'ecx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(301): error C2146: syntax error: missing ';' before identifier 'call'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(301): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(302): error C2146: syntax error: missing ';' before identifier 'callAdd'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(302): error C2146: syntax error: missing ';' before identifier 'add'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(302): error C2065: 'add': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(302): error C2146: syntax error: missing ';' before identifier 'esp'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(302): error C2065: 'esp': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(304): error C2146: syntax error: missing ';' before identifier 'popad'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(303): error C2065: 'popad': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(304): error C2143: syntax error: missing ';' before '}'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(318): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(319): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(324): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(325): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(340): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(342): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(344): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(345): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(347): error C2065: 'lea': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(347): error C2146: syntax error: missing ';' before identifier 'ebx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(347): error C2065: 'ebx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(348): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(348): error C2146: syntax error: missing ';' before identifier 'ebx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(348): error C2065: 'ebx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(349): error C2065: 'lea': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(349): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(349): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\message.cpp(349): fatal error C1003: error count exceeds 100; stopping compilation
+  Room.cpp
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.h(69): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.h(70): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(38): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(39): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(49): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(50): error C2065: 'lea': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(50): error C2146: syntax error: missing ';' before identifier 'ecx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(50): error C2065: 'ecx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(51): error C2146: syntax error: missing ';' before identifier 'call'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(51): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(52): error C2146: syntax error: missing ';' before identifier 'dwCall1'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(52): error C2146: syntax error: missing ';' before identifier 'lea'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(52): error C2065: 'lea': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(52): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(52): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(53): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(53): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(54): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(53): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(54): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(54): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(54): error C2146: syntax error: missing ';' before identifier 'ebx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(54): error C2065: 'ebx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(55): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(55): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(56): error C2146: syntax error: missing ';' before identifier 'ebx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(55): error C2065: 'ebx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(56): error C2146: syntax error: missing ';' before identifier 'call'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(56): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(57): error C2146: syntax error: missing ';' before identifier 'dwCall2'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(57): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(57): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(57): error C2146: syntax error: missing ';' before identifier 'ecx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(57): error C2065: 'ecx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(57): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(58): error C2146: syntax error: missing ';' before identifier 'call'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(58): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(59): error C2146: syntax error: missing ';' before identifier 'dwCall3'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(59): error C2146: syntax error: missing ';' before identifier 'lea'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(59): error C2065: 'lea': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(59): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(59): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(60): error C2146: syntax error: missing ';' before identifier 'push'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(60): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(61): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(60): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(61): error C2146: syntax error: missing ';' before identifier 'lea'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(61): error C2065: 'lea': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(61): error C2146: syntax error: missing ';' before identifier 'ecx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(61): error C2065: 'ecx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(62): error C2146: syntax error: missing ';' before identifier 'call'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(62): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(63): error C2146: syntax error: missing ';' before identifier 'dwCall4'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(63): error C2146: syntax error: missing ';' before identifier 'mov'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(63): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(63): error C2146: syntax error: missing ';' before identifier 'dwWxidArr'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(63): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(64): error C2143: syntax error: missing ';' before '}'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(69): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(71): warning C4312: 'type cast': conversion from 'DWORD' to 'int *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(76): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(80): error C2664: 'int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)': cannot convert argument 2 from 'wchar_t [256]' to 'LPCSTR'
+  d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(80): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(114): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(115): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(119): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(120): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(129): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(130): error C2065: 'pushad': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(131): error C2065: 'lea': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(131): error C2146: syntax error: missing ';' before identifier 'esi'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(131): error C2065: 'esi': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(132): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(132): error C2146: syntax error: missing ';' before identifier 'ecx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(132): error C2065: 'ecx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(132): error C2065: 'esi': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(133): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(133): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(133): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(134): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(134): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(134): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(135): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(135): error C2146: syntax error: missing ';' before identifier 'dwCallAddr1'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(136): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(136): error C2143: syntax error: missing ';' before 'constant'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(137): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(137): error C2146: syntax error: missing ';' before identifier 'dwParam'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(138): error C2065: 'lea': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(138): error C2146: syntax error: missing ';' before identifier 'ecx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(138): error C2065: 'ecx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(139): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(139): error C2146: syntax error: missing ';' before identifier 'dwCallAddr2'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(140): error C2065: 'sub': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(140): error C2146: syntax error: missing ';' before identifier 'esp'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(140): error C2065: 'esp': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(141): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(141): error C2146: syntax error: missing ';' before identifier 'ecx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(141): error C2065: 'ecx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(142): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(142): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(142): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(142): error C2065: 'esp': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(143): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(143): error C2146: syntax error: missing ';' before identifier 'eax'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(143): error C2065: 'eax': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(144): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(144): error C2146: syntax error: missing ';' before identifier 'dwCallAddr3'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(145): error C2065: 'push': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(145): error C2146: syntax error: missing ';' before identifier 'esi'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(145): error C2065: 'esi': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(146): error C2065: 'mov': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(146): error C2146: syntax error: missing ';' before identifier 'ecx'
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(146): error C2065: 'ecx': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(147): error C2065: 'call': undeclared identifier
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\room.cpp(147): fatal error C1003: error count exceeds 100; stopping compilation
+  LoginInfo.cpp
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(28): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(29): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(31): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(31): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(38): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(42): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(45): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(47): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(47): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(51): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(52): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(54): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(54): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(59): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(59): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(62): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(65): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(66): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(68): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(68): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(73): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(85): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(88): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(91): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(94): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(95): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(97): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(97): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(101): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(116): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(117): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(120): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(120): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(122): error C2664: 'BOOL SetDlgItemTextA(HWND,int,LPCSTR)': cannot convert argument 3 from 'wchar_t *' to 'LPCSTR'
+  d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(122): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(129): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(133): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(136): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(138): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(138): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(140): error C2664: 'BOOL SetDlgItemTextA(HWND,int,LPCSTR)': cannot convert argument 3 from 'wchar_t *' to 'LPCSTR'
+  d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(140): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(144): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(145): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(147): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(147): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(150): error C2664: 'BOOL SetDlgItemTextA(HWND,int,LPCSTR)': cannot convert argument 3 from 'wchar_t *' to 'LPCSTR'
+  d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(150): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(155): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(155): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(156): error C2664: 'BOOL SetDlgItemTextA(HWND,int,LPCSTR)': cannot convert argument 3 from 'wchar_t *' to 'LPCSTR'
+  d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(156): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(160): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(161): error C2664: 'BOOL SetDlgItemTextA(HWND,int,LPCSTR)': cannot convert argument 3 from 'wchar_t *' to 'LPCSTR'
+  d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(161): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(165): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(166): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(169): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(169): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(171): error C2664: 'BOOL SetDlgItemTextA(HWND,int,LPCSTR)': cannot convert argument 3 from 'wchar_t *' to 'LPCSTR'
+  d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(171): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(175): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(185): error C2664: 'BOOL SetDlgItemTextA(HWND,int,LPCSTR)': cannot convert argument 3 from 'wchar_t [8]' to 'LPCSTR'
+  d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(185): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(189): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(190): error C2664: 'BOOL SetDlgItemTextA(HWND,int,LPCSTR)': cannot convert argument 3 from 'wchar_t *' to 'LPCSTR'
+  d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(190): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(194): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(195): error C2664: 'BOOL SetDlgItemTextA(HWND,int,LPCSTR)': cannot convert argument 3 from 'wchar_t *' to 'LPCSTR'
+  d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(195): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(199): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(200): error C2664: 'BOOL SetDlgItemTextA(HWND,int,LPCSTR)': cannot convert argument 3 from 'wchar_t *' to 'LPCSTR'
+  d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(200): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(204): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(205): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(207): warning C4312: 'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(207): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(209): error C2664: 'BOOL SetDlgItemTextA(HWND,int,LPCSTR)': cannot convert argument 3 from 'wchar_t *' to 'LPCSTR'
+  d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(209): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(213): warning C4312: 'type cast': conversion from 'DWORD' to 'CHAR *' of greater size
+d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(214): error C2664: 'BOOL SetDlgItemTextA(HWND,int,LPCSTR)': cannot convert argument 3 from 'wchar_t *' to 'LPCSTR'
+  d:\微信开发\wechatpc-master\wechatpc-master\wechatdll\wechatdll\logininfo.cpp(214): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+  Generating Code...
