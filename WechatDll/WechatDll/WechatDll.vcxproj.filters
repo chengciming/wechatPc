@@ -228,9 +228,6 @@
     <ClInclude Include="Sql.h">
       <Filter>微信\头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Download.h">
-      <Filter>微信\头文件</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -285,9 +282,6 @@
       <Filter>数据响应\源文件</Filter>
     </ClCompile>
     <ClCompile Include="Sql.cpp">
-      <Filter>微信\源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Download.cpp">
       <Filter>微信\源文件</Filter>
     </ClCompile>
   </ItemGroup>

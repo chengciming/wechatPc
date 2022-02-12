@@ -13,7 +13,7 @@
 #include "Send.h"
 #include "Sql.h"
 #include "Transfer.h"
-#include "Download.h"
+//#include "Download.h"
 #include "Receive.h"
 
 

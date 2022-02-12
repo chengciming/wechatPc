@@ -22,8 +22,9 @@
 bool Receive::SendLogout(Package *package)
 {
 	// 初始化数据包
+	Package tmp_package;
 	if (!package) {
-		package = new Package();
+		package = &tmp_package;
 	}
 	// 设置操作类型
 	package->SetOpCode(OpCode::OPCODE_WECHAT_QUIT);

@@ -41,6 +41,7 @@ void WsClientSend(char *body)
 	CStringA strBodyA(body);
 
 	pClient->SendWSMessage(TRUE, 0, 0x1, MASK_KEY, (BYTE*)(LPCSTR)strBodyA, strBodyA.GetLength());
+	//delete body;
 }
 // 接收数据
 void WsClientRecvCallback(char *data)
@@ -58,6 +59,7 @@ void WsClientRecvCallback(char *data)
 		ReceiveObject = new Receive;
 	}
 	ReceiveObject->Handle(package);
+	delete package;
 }
 // 持续连接服务端
 BOOL WsClientKeepConnect(int time)

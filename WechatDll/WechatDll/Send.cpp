@@ -259,7 +259,6 @@ void Send::SendFriendList(FriendList *list, Package *package, int page, int page
 
 			friendList.PushBack(info, package->json.GetAllocator());
 		}
-
 		p = p->next;
 	}
 
@@ -287,8 +286,9 @@ void Send::SendFriendList(FriendList *list, Package *package, int page, int page
 void Send::SendWxMessage(WebsocketMessageStruct *message, Package *package)
 {
 	// 初始化数据包
+	Package tmp_package;
 	if (!package) {
-		package = new Package();
+		package = &tmp_package;
 	}
 	// 设置操作类型
 	package->SetOpCode(OpCode::OPCODE_MESSAGE_RECEIVE);

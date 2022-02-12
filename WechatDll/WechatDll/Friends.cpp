@@ -54,7 +54,7 @@ typedef tuple <
 > USER_INFO;
 
 // 定义7000个用户列表
-list<USER_INFO> userInfoList(10000);
+list<USER_INFO> userInfoList(100000);
 // 获取好友列表：被覆盖的call地址
 DWORD friendsOverWritedCallAdd = 0;
 // 获取好友列表：跳回的地址
@@ -67,7 +67,7 @@ DWORD friendsHookAddress = 0;
 int updateUserListNumber = 0;  // 更新的条数
 int updateUserListComparedNumber = 0;  // 对比的条数
 // 分页获取好友列表 - 每页条数
-int friendPageSize = 50;
+int friendPageSize = 100;
 
 /*==================================获取好友列表开始=======================================*/
 INT GetContactCallBack(void* para, int nColumn, char** colValue, char** colName)
@@ -205,9 +205,11 @@ INT GetContactCountCallBack(void* para, int nColumn, char** colValue, char** col
 			sprintf_s(sql, "select Contact.UserName as Wxid,Contact.ExtraBuf,Contact.EncryptUserName as EncryptUsername,Contact.Alias,Contact.Type,Contact.DelFlag,Contact.VerifyFlag,Contact.BigHeadImgUrl as CBigHeadImgUrl,Contact.SmallHeadImgUrl AS CSmallHeadImgUrl,Contact.ChatRoomNotify as CRoomNotify,Contact.NickName as Nickname,Contact.ChatRoomType as RoomType,Contact.Remark,BizInfo.Type as BizType,BizInfo.AcceptType as BizAcceptType,BizInfo.BrandList as BizBrandList,BizInfo.BrandFlag as BizBrandFlag,BizInfo.BrandIconURL as BizBrandIconURL,BizInfo.ExtInfo as BizExtInfo,ContactHeadImgUrl.bigHeadImgUrl as BigHeadImgUrl,ContactHeadImgUrl.smallHeadImgUrl as SmallHeadImgUrl,TicketInfo.Ticket,ChatRoom.UserNameList as RoomWxidList,ChatRoom.Owner as RoomOwner,ChatRoomInfo.Announcement as RoomAnnouncement,ChatRoomInfo.AnnouncementEditor as RoomAnnouncementEditor,ChatRoomInfo.AnnouncementPublishTime as RoomAnnouncementPublishTime,ChatRoomInfo.ChatRoomStatus as RoomStatus from Contact LEFT OUTER JOIN BizInfo ON Contact.UserName = BizInfo.UserName LEFT OUTER JOIN ContactHeadImgUrl ON Contact.UserName = ContactHeadImgUrl.usrName LEFT OUTER JOIN TicketInfo ON Contact.UserName = TicketInfo.UserName LEFT OUTER JOIN ChatRoom ON Contact.UserName = ChatRoom.ChatRoomName LEFT OUTER JOIN ChatRoomInfo ON ChatRoom.ChatRoomName = ChatRoomInfo.ChatRoomName limit %d offset %d", friendPageSize, offset);
 			// 执行查询SQL
 			string sqlString = sql;
-			runSql("MicroMsg.db", sqlString, GetContactCallBack);
+			runSql("MicroMsg.db", sqlString, GetContactCallBack); //实际上是写入了userInfoList
 			// 向服务器发送好友列表
+			
 			SendList(package, page, friendPageSize, friendsTotal);
+			
 		}
 	}
 
@@ -303,92 +305,102 @@ void SendList(Package *package, int page, int pageSize, int total)
 
 	//行号++
 	DWORD index = 0;
+	
 	for (auto& userInfoOld : userInfoList) {
-		string Wxid = get<0>(userInfoOld);
-		string EncryptUsername = get<1>(userInfoOld);
-		string Alias = get<2>(userInfoOld);
-		string Type = get<3>(userInfoOld);
-		string Sex = get<4>(userInfoOld);
-		string Nickname = get<5>(userInfoOld);
-		string RoomType = get<6>(userInfoOld);
-		string Remark = get<7>(userInfoOld);
-		string BigHeadImgUrl = get<8>(userInfoOld);
-		string SmallHeadImgUrl = get<9>(userInfoOld);
-		string Ticket = get<10>(userInfoOld);
-		string RoomWxidList = get<11>(userInfoOld);
-		string RoomOwner = get<12>(userInfoOld);
-		string RoomAnnouncement = get<13>(userInfoOld);
-		string RoomAnnouncementEditor = get<14>(userInfoOld);
-		string RoomAnnouncementPublishTime = get<15>(userInfoOld);
-		string RoomStatus = get<16>(userInfoOld);
-		string BizType = get<17>(userInfoOld);
-		string BizAcceptType = get<18>(userInfoOld);
-		string BizBrandList = get<19>(userInfoOld);
-		string BizBrandFlag = get<20>(userInfoOld);
-		string BizBrandIconURL = get<21>(userInfoOld);
-		string BizExtInfo = get<22>(userInfoOld);
-		string DelFlag = get<23>(userInfoOld);
-		string VerifyFlag = get<24>(userInfoOld);
-		string RoomNotify = get<25>(userInfoOld);
-		string ExtraBuf = get<26>(userInfoOld);
 		
-		normal = new FriendList;
+			string Wxid = get<0>(userInfoOld);
+			string EncryptUsername = get<1>(userInfoOld);
+			string Alias = get<2>(userInfoOld);
+			string Type = get<3>(userInfoOld);
+			string Sex = get<4>(userInfoOld);
+			string Nickname = get<5>(userInfoOld);
+			string RoomType = get<6>(userInfoOld);
+			string Remark = get<7>(userInfoOld);
+			string BigHeadImgUrl = get<8>(userInfoOld);
+			string SmallHeadImgUrl = get<9>(userInfoOld);
+			string Ticket = get<10>(userInfoOld);
+			string RoomWxidList = get<11>(userInfoOld);
+			string RoomOwner = get<12>(userInfoOld);
+			string RoomAnnouncement = get<13>(userInfoOld);
+			string RoomAnnouncementEditor = get<14>(userInfoOld);
+			string RoomAnnouncementPublishTime = get<15>(userInfoOld);
+			string RoomStatus = get<16>(userInfoOld);
+			string BizType = get<17>(userInfoOld);
+			string BizAcceptType = get<18>(userInfoOld);
+			string BizBrandList = get<19>(userInfoOld);
+			string BizBrandFlag = get<20>(userInfoOld);
+			string BizBrandIconURL = get<21>(userInfoOld);
+			string BizExtInfo = get<22>(userInfoOld);
+			string DelFlag = get<23>(userInfoOld);
+			string VerifyFlag = get<24>(userInfoOld);
+			string RoomNotify = get<25>(userInfoOld);
+			string ExtraBuf = get<26>(userInfoOld);
 
-		sprintf_s(normal->wxid, "%s", Wxid.c_str());
-		sprintf_s(normal->username, "%s", Alias.c_str());
-		sprintf_s(normal->v1, "%s", EncryptUsername.c_str());
-		sprintf_s(normal->v2, "%s", Ticket.c_str());
-		normal->type = atoi(Type.c_str());
-		normal->sex = atoi(Sex.c_str());
-		sprintf_s(normal->nickname, "%s", Nickname.c_str());
-		normal->roomType = atoi(RoomType.c_str());
-		sprintf_s(normal->remark, "%s", Remark.c_str());
-		sprintf_s(normal->bigHeadImgUrl, "%s", BigHeadImgUrl.c_str());
-		sprintf_s(normal->smallHeadImgUrl, "%s", SmallHeadImgUrl.c_str());
-		sprintf_s(normal->roomWxidList, "%s", RoomWxidList.c_str());
-		normal->roomOwner = atoi(RoomOwner.c_str());
-		sprintf_s(normal->roomAnnouncement, "%s", RoomAnnouncement.c_str());
-		sprintf_s(normal->roomAnnouncementEditor, "%s", RoomAnnouncementEditor.c_str());
-		sprintf_s(normal->roomAnnouncementPublishTime, "%s", RoomAnnouncementPublishTime.c_str());
-		normal->roomStatus = atoi(RoomStatus.c_str());
-		normal->bizType = atoi(BizType.c_str());
-		normal->bizAcceptType = atoi(BizAcceptType.c_str());
-		sprintf_s(normal->bizBrandList, "%s", BizBrandList.c_str());
-		normal->bizBrandFlag = atoi(BizBrandFlag.c_str());
-		sprintf_s(normal->bizBrandIconURL, "%s", BizBrandIconURL.c_str());
-		sprintf_s(normal->bizExtInfo, "%s", BizExtInfo.c_str());
-		normal->delFlag = atoi(DelFlag.c_str());
-		normal->verifyFlag = atoi(VerifyFlag.c_str());
-		normal->roomNotify = atoi(RoomNotify.c_str());
+			normal = new FriendList;
 
-		// 生成key
-		memset(buff, 0x0, sizeof(buff));
-		base64_encode((const unsigned char *)ExtraBuf.c_str(), ExtraBuf.length(), buff);
-		sprintf_s(normal->extraBuf, "%s", buff);  // 二进制的加密串
+			sprintf_s(normal->wxid, "%s", Wxid.c_str());
+			sprintf_s(normal->username, "%s", Alias.c_str());
+			sprintf_s(normal->v1, "%s", EncryptUsername.c_str());
+			sprintf_s(normal->v2, "%s", Ticket.c_str());
+			normal->type = atoi(Type.c_str());
+			normal->sex = atoi(Sex.c_str());
+			sprintf_s(normal->nickname, "%s", Nickname.c_str());
+			normal->roomType = atoi(RoomType.c_str());
+			sprintf_s(normal->remark, "%s", Remark.c_str());
+			sprintf_s(normal->bigHeadImgUrl, "%s", BigHeadImgUrl.c_str());
+			sprintf_s(normal->smallHeadImgUrl, "%s", SmallHeadImgUrl.c_str());
+			sprintf_s(normal->roomWxidList, "%s", RoomWxidList.c_str());
+			normal->roomOwner = atoi(RoomOwner.c_str());
+			sprintf_s(normal->roomAnnouncement, "%s", RoomAnnouncement.c_str());
+			sprintf_s(normal->roomAnnouncementEditor, "%s", RoomAnnouncementEditor.c_str());
+			sprintf_s(normal->roomAnnouncementPublishTime, "%s", RoomAnnouncementPublishTime.c_str());
+			normal->roomStatus = atoi(RoomStatus.c_str());
+			normal->bizType = atoi(BizType.c_str());
+			normal->bizAcceptType = atoi(BizAcceptType.c_str());
+			sprintf_s(normal->bizBrandList, "%s", BizBrandList.c_str());
+			normal->bizBrandFlag = atoi(BizBrandFlag.c_str());
+			sprintf_s(normal->bizBrandIconURL, "%s", BizBrandIconURL.c_str());
+			sprintf_s(normal->bizExtInfo, "%s", BizExtInfo.c_str());
+			normal->delFlag = atoi(DelFlag.c_str());
+			normal->verifyFlag = atoi(VerifyFlag.c_str());
+			normal->roomNotify = atoi(RoomNotify.c_str());
 
-		// 从好友详情里面补充部分数据
-		userInfo info = GetUserInfoByWxid(UTF8ToUnicode((char*)Wxid.c_str()));
-		if (strlen(normal->username) <= 0 || strcmp(normal->username, "(null)") == 0) {
-			sprintf_s(normal->username, "%s", UnicodeToUtf8(info.username));
-		}
-		if (strlen(normal->v1) <= 0 || strcmp(normal->v1, "(null)") == 0) {
-			sprintf_s(normal->v1, "%s", UnicodeToUtf8(info.v1));
-		}
-		if (strlen(normal->nickname) <= 0 || strcmp(normal->nickname, "(null)") == 0) {
-			sprintf_s(normal->nickname, "%s", UnicodeToUtf8(info.nickname));
-		}
+			// 生成key
+			memset(buff, 0x0, sizeof(buff));
+			base64_encode((const unsigned char*)ExtraBuf.c_str(), ExtraBuf.length(), buff);
+			sprintf_s(normal->extraBuf, "%s", buff);  // 二进制的加密串
 
-		next->next = normal;
-		next = next->next;
+			// 从好友详情里面补充部分数据
+			userInfo info = GetUserInfoByWxid(UTF8ToUnicode((char*)Wxid.c_str()));
+			if (strlen(normal->username) <= 0 || strcmp(normal->username, "(null)") == 0) {
+				sprintf_s(normal->username, "%s", UnicodeToUtf8(info.username));
+			}
+			if (strlen(normal->v1) <= 0 || strcmp(normal->v1, "(null)") == 0) {
+				sprintf_s(normal->v1, "%s", UnicodeToUtf8(info.v1));
+			}
+			if (strlen(normal->nickname) <= 0 || strcmp(normal->nickname, "(null)") == 0) {
+				sprintf_s(normal->nickname, "%s", UnicodeToUtf8(info.nickname));
+			}
 
-		index++;
+			next->next = normal;
+			next = next->next;
+
+			index++;
 	}
 	next->next = NULL;/*链表的最后指向一个新地址*/
-
 	// 发送
 	if (index > 0) {
 		Send::SendFriendList(list, package, page, pageSize, total);
+		//char out_msg[0x555] = { 0 };
+
 	}
+	
+	FriendList* p = list;
+	do {
+		FriendList* tmp = p;
+		p = p->next;
+		delete tmp;
+	} while (p);
 }
 
 //Hook好友列表信息

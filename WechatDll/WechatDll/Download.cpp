@@ -44,10 +44,10 @@ void DecodeImage(char *datFile, char *saveFile)
 	
 	// 判断文件头 - JPG
 	char password = buffer[0] ^ 0xFF;
-	char check1 = buffer[0] ^ password;
-	char check2 = buffer[1] ^ password;
-	char h1 = 0xFF;
-	char h2 = 0xD8;
+	char check1 = char(buffer[0] ^ password);
+	char check2 = char(buffer[1] ^ password);
+	char h1 = char(0xFF);
+	char h2 = char(0xD8);
 	if (check1 != h1 || check2 != h2) {
 		// 判断文件头 - PNG
 		password = buffer[0] ^ 0x89;

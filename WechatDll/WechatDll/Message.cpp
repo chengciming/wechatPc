@@ -13,7 +13,7 @@
 #include <sstream>
 #include <iomanip>
 #include <strstream>
-#include "Download.h"
+//#include "Download.h"
 #include "Message.h"
 #include "Send.h"
 

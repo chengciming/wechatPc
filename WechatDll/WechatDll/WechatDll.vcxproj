@@ -23,32 +23,32 @@
     <ProjectGuid>{4CE906F4-5781-45CF-91AA-FBD243689D97}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>WechatDll</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
-    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -161,7 +161,6 @@
     <ClInclude Include="Common.h" />
     <ClInclude Include="Config.h" />
     <ClInclude Include="dllmain.h" />
-    <ClInclude Include="Download.h" />
     <ClInclude Include="Library\HpSocket\Include\HPSocket.h" />
     <ClInclude Include="Library\HpSocket\Include\HPTypeDef.h" />
     <ClInclude Include="Library\HpSocket\Include\SocketInterface.h" />
@@ -210,7 +209,6 @@
     <ClCompile Include="Base64.cpp" />
     <ClCompile Include="Common.cpp" />
     <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="Download.cpp" />
     <ClCompile Include="Md5.cpp" />
     <ClCompile Include="Package.cpp" />
     <ClCompile Include="Receive.cpp" />
@@ -219,7 +217,9 @@
     <ClCompile Include="Sql.cpp" />
     <ClCompile Include="Transfer.cpp" />
     <ClCompile Include="WebSocket.cpp" />
-    <ClCompile Include="Friends.cpp" />
+    <ClCompile Include="Friends.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)Library\HpSocket\Include;%(AdditionalUsingDirectories);$(ProjectDir)Library\HpSocket</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="Login.cpp" />
     <ClCompile Include="Message.cpp" />
     <ClCompile Include="Room.cpp" />
